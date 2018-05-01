@@ -13,7 +13,8 @@ Bulk
 
 > run-easy.sh [JULIA_HOME] [INSTANCES_HOME] [METHOD(daskin|elloumi)]
 
-Example: `./run-hard.sh /usr/local/julia/bin Instances/easy daskin`
+Daskin: `./run-easy.sh /home/ec2-user/julia/bin Instances/easy daskin`
+Elloumi: `./run-easy.sh /home/ec2-user/julia/bin Instances/easy elloumi`
 
 ## Hard
 
