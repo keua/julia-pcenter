@@ -76,7 +76,7 @@ function elloumipcenter(selsolver, n, p, dist)
     @constraint(m, sum( y[j] for j=1:n ) <= p )
     @constraint(
         m,
-        [ ik=2:k, i=1:n ],
+        [ i=1:n, ik=2:k ],
         uk[ik] + sum( y[j] for j=1:n if dist[i,j] < D[ik]) >= 1
     )
 
