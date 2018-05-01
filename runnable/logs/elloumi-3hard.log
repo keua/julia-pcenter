@@ -1,0 +1,465 @@
+
+###############################################################
+ General Information 
+###############################################################
+
+Formulation: ELLOUMI, loglevel: 1 , ratio: 0, 
+timeout: 7200.0, threads: 1 
+
+Problem parameters: 
+ n = 100 
+ p = 10 
+
+Instance values: 
+100×100 Named Array{Int64,2}
+A ╲ B │   1    2    3    4    5    6    7  …   94   95   96   97   98   99  100
+──────┼────────────────────────────────────────────────────────────────────────
+1     │   0   77  139  135  157  174  193  …  174  191  160  160  114  105   66
+2     │  77    0   62  107  129  146  161     190  154  158  195  191  182  143
+3     │ 139   62    0   90  112  129  117     168   92  123  160  206  209  205
+4     │ 135  107   90    0   22   39   58     139  117  148  185  147  138  177
+5     │ 157  129  112   22    0   17   36     139  139  161  171  125  116  155
+6     │ 174  146  129   39   17    0   19     122  156  167  188  142  133  172
+7     │ 193  161  117   58   36   19    0     103  162  148  185  161  152  191
+8     │ 204  150  106   69   47   30   11     114  151  137  174  172  163  202
+9     │ 206  146  102   73   51   34   15     118  147  133  170  176  167  206
+⋮         ⋮    ⋮    ⋮    ⋮    ⋮    ⋮    ⋮  ⋱    ⋮    ⋮    ⋮    ⋮    ⋮    ⋮    ⋮
+92    │ 125  161  208  118  140  157  152      49  125  156  177  131  122  161
+93    │ 144  180  198  137  159  152  133      30  106  137  174  150  141  180
+94    │ 174  190  168  139  139  122  103       0   76  107  144  164  155  194
+95    │ 191  154   92  117  139  156  162      76    0   31   68  114  123  162
+96    │ 160  158  123  148  161  167  148     107   31    0   37   83   92  131
+97    │ 160  195  160  185  171  188  185     144   68   37    0   46   55   94
+98    │ 114  191  206  147  125  142  161     164  114   83   46    0    9   48
+99    │ 105  182  209  138  116  133  152     155  123   92   55    9    0   39
+100   │  66  143  205  177  155  172  191  …  194  162  131   94   48   39    0
+
+D = [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 259, 260, 261, 262, 263, 264, 265, 266, 268, 269, 270, 272, 273, 274, 275, 276, 277, 278, 279, 281, 282, 283, 285, 286, 287, 288, 289, 290, 291, 293, 294, 295, 296, 297, 299, 301, 303, 304, 305, 307, 308, 310, 313, 314, 315, 316, 317, 318, 320, 321, 322, 324, 329, 330, 332, 335, 337, 344, 368, 388]
+k = 317
+Cgl0003I 54 fixed, 0 tightened bounds, 0 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 8398 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 8300 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 298 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 215 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 116 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 26 strengthened rows, 0 substitutions
+Cgl0004I processed model has 17751 rows, 362 columns (362 integer (362 of which binary)) and 955489 elements
+Cutoff increment increased from 1e-05 to 0.9999
+Cbc0038I Initial state - 128 integers unsatisfied sum - 25.5527
+Cbc0038I Pass   1: (23.09 seconds) suminf.    3.87324 (35) obj. 93.1127 iterations 335
+Cbc0038I Pass   2: (23.20 seconds) suminf.    2.00000 (4) obj. 94 iterations 45
+Cbc0038I Pass   3: (23.29 seconds) suminf.    0.00000 (0) obj. 95 iterations 25
+Cbc0038I Solution found of 95
+Cbc0038I Rounding solution of 94 is better than previous of 95
+
+Cbc0038I Before mini branch and bound, 231 integers at bound fixed and 0 continuous
+Cbc0038I Full problem 17751 rows 362 columns, reduced to 9232 rows 131 columns - 11 fixed gives 5552, 120 - ok now
+Cbc0038I Full problem 17751 rows 362 columns, reduced to 5552 rows 120 columns
+Cbc0038I Mini branch and bound improved solution from 94 to 93 (28.89 seconds)
+Cbc0038I Round again with cutoff of 91.1799
+Cbc0038I Reduced cost fixing fixed 2 variables on major pass 2
+Cbc0038I Pass   4: (29.62 seconds) suminf.    6.88547 (58) obj. 91.1799 iterations 209
+Cbc0038I Pass   5: (29.92 seconds) suminf.    6.45554 (87) obj. 91.1799 iterations 98
+Cbc0038I Pass   6: (30.24 seconds) suminf.    9.32008 (40) obj. 91.1799 iterations 130
+Cbc0038I Pass   7: (30.43 seconds) suminf.    6.94522 (51) obj. 91.1799 iterations 81
+Cbc0038I Pass   8: (30.59 seconds) suminf.    6.55904 (52) obj. 91.1799 iterations 56
+Cbc0038I Pass   9: (30.76 seconds) suminf.    6.46271 (58) obj. 91.1799 iterations 54
+Cbc0038I Pass  10: (31.14 seconds) suminf.   10.28162 (47) obj. 91.1799 iterations 171
+Cbc0038I Pass  11: (31.43 seconds) suminf.    8.28478 (44) obj. 91.1799 iterations 129
+Cbc0038I Pass  12: (31.64 seconds) suminf.    7.37322 (53) obj. 91.1799 iterations 87
+Cbc0038I Pass  13: (31.79 seconds) suminf.    7.27318 (54) obj. 91.1799 iterations 41
+Cbc0038I Pass  14: (32.02 seconds) suminf.    8.12633 (45) obj. 91.1799 iterations 97
+Cbc0038I Pass  15: (32.28 seconds) suminf.    7.27978 (55) obj. 91.1799 iterations 110
+Cbc0038I Pass  16: (32.48 seconds) suminf.    7.27978 (55) obj. 91.1799 iterations 60
+Cbc0038I Pass  17: (32.85 seconds) suminf.    7.85038 (53) obj. 91.1799 iterations 141
+Cbc0038I Pass  18: (33.07 seconds) suminf.    6.96736 (54) obj. 91.1799 iterations 81
+Cbc0038I Pass  19: (33.34 seconds) suminf.    9.72484 (52) obj. 91.1799 iterations 117
+Cbc0038I Pass  20: (33.59 seconds) suminf.    8.49229 (44) obj. 91.1799 iterations 97
+Cbc0038I Pass  21: (33.74 seconds) suminf.    8.13426 (43) obj. 91.1799 iterations 49
+Cbc0038I Pass  22: (33.90 seconds) suminf.    8.13426 (43) obj. 91.1799 iterations 45
+Cbc0038I Pass  23: (34.25 seconds) suminf.    9.64016 (42) obj. 91.1799 iterations 149
+Cbc0038I Pass  24: (34.58 seconds) suminf.    8.71165 (52) obj. 91.1799 iterations 122
+Cbc0038I Pass  25: (34.77 seconds) suminf.    8.09519 (51) obj. 91.1799 iterations 68
+Cbc0038I Pass  26: (35.15 seconds) suminf.    9.32008 (50) obj. 91.1799 iterations 190
+Cbc0038I Pass  27: (35.39 seconds) suminf.    6.78221 (51) obj. 91.1799 iterations 113
+Cbc0038I Pass  28: (35.54 seconds) suminf.    6.76308 (54) obj. 91.1799 iterations 50
+Cbc0038I Pass  29: (35.84 seconds) suminf.   12.42008 (46) obj. 91.1799 iterations 145
+Cbc0038I Pass  30: (36.20 seconds) suminf.    9.52887 (44) obj. 91.1799 iterations 155
+Cbc0038I Pass  31: (36.64 seconds) suminf.    8.49229 (44) obj. 91.1799 iterations 176
+Cbc0038I Pass  32: (36.80 seconds) suminf.    8.13426 (43) obj. 91.1799 iterations 44
+Cbc0038I Pass  33: (36.94 seconds) suminf.    8.13426 (43) obj. 91.1799 iterations 38
+Cbc0038I No solution found this major pass
+Cbc0038I Before mini branch and bound, 224 integers at bound fixed and 0 continuous
+Cbc0038I Full problem 17751 rows 362 columns, reduced to 9553 rows 138 columns - 45 fixed gives 165, 57 - ok now
+Cbc0038I Full problem 17751 rows 362 columns, reduced to 40 rows 35 columns
+Cbc0038I Mini branch and bound did not improve solution (41.65 seconds)
+Cbc0038I After 41.65 seconds - Feasibility pump exiting with objective of 93 - took 19.50 seconds
+Cbc0012I Integer solution of 93 found by feasibility pump after 0 iterations and 0 nodes (41.68 seconds)
+Cbc0038I Full problem 17751 rows 362 columns, reduced to 9081 rows 128 columns - 45 fixed gives 164, 54 - ok now
+Cbc0031I 15 added rows had average density of 162.46667
+Cbc0013I At root node, 15 cuts changed objective from 83.798282 to 86.356278 in 100 passes
+Cbc0014I Cut generator 0 (Probing) - 0 row cuts average 0.0 elements, 1 column cuts (1 active)  in 7.165 seconds - new frequency is -100
+Cbc0014I Cut generator 1 (Gomory) - 3153 row cuts average 162.5 elements, 0 column cuts (0 active)  in 10.319 seconds - new frequency is -100
+Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.409 seconds - new frequency is -100
+Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.182 seconds - new frequency is -100
+Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 37.223 seconds - new frequency is -100
+Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.731 seconds - new frequency is -100
+Cbc0014I Cut generator 6 (TwoMirCuts) - 677 row cuts average 150.6 elements, 0 column cuts (0 active)  in 3.308 seconds - new frequency is 1
+Cbc0010I After 0 nodes, 1 on tree, 93 best solution, best possible 86.356278 (268.30 seconds)
+
+###############################################################
+ Elloumi 
+###############################################################
+
+Y 
+100-element Named Array{Float64,1}
+A   │ 
+────┼────
+1   │ 0.0
+2   │ 0.0
+3   │ 0.0
+4   │ 0.0
+5   │ 0.0
+6   │ 0.0
+7   │ 0.0
+8   │ 0.0
+9   │ 0.0
+⋮       ⋮
+92  │ 0.0
+93  │ 0.0
+94  │ 0.0
+95  │ 0.0
+96  │ 0.0
+97  │ 0.0
+98  │ 0.0
+99  │ 0.0
+100 │ 0.0
+
+uk: 1 dimensions:
+[  2] = 1.0
+[  3] = 1.0
+[  4] = 1.0
+[  5] = 1.0
+[  6] = 1.0
+[  7] = 1.0
+[  8] = 1.0
+[  9] = 1.0
+[ 10] = 1.0
+[ 11] = 1.0
+[ 12] = 1.0
+[ 13] = 1.0
+[ 14] = 1.0
+[ 15] = 1.0
+[ 16] = 1.0
+[ 17] = 1.0
+[ 18] = 1.0
+[ 19] = 1.0
+[ 20] = 1.0
+[ 21] = 1.0
+[ 22] = 1.0
+[ 23] = 1.0
+[ 24] = 1.0
+[ 25] = 1.0
+[ 26] = 1.0
+[ 27] = 1.0
+[ 28] = 1.0
+[ 29] = 1.0
+[ 30] = 1.0
+[ 31] = 1.0
+[ 32] = 1.0
+[ 33] = 1.0
+[ 34] = 1.0
+[ 35] = 1.0
+[ 36] = 1.0
+[ 37] = 1.0
+[ 38] = 1.0
+[ 39] = 1.0
+[ 40] = 1.0
+[ 41] = 1.0
+[ 42] = 1.0
+[ 43] = 1.0
+[ 44] = 1.0
+[ 45] = 1.0
+[ 46] = 1.0
+[ 47] = 1.0
+[ 48] = 1.0
+[ 49] = 1.0
+[ 50] = 1.0
+[ 51] = 1.0
+[ 52] = 1.0
+[ 53] = 1.0
+[ 54] = 1.0
+[ 55] = 1.0
+[ 56] = 1.0
+[ 57] = 1.0
+[ 58] = 1.0
+[ 59] = 1.0
+[ 60] = 1.0
+[ 61] = 1.0
+[ 62] = 1.0
+[ 63] = 1.0
+[ 64] = 1.0
+[ 65] = 1.0
+[ 66] = 1.0
+[ 67] = 1.0
+[ 68] = 1.0
+[ 69] = 1.0
+[ 70] = 1.0
+[ 71] = 1.0
+[ 72] = 1.0
+[ 73] = 1.0
+[ 74] = 1.0
+[ 75] = 1.0
+[ 76] = 1.0
+[ 77] = 1.0
+[ 78] = 1.0
+[ 79] = 1.0
+[ 80] = 1.0
+[ 81] = 1.0
+[ 82] = 1.0
+[ 83] = 1.0
+[ 84] = 1.0
+[ 85] = 1.0
+[ 86] = 1.0
+[ 87] = 1.0
+[ 88] = 1.0
+[ 89] = 1.0
+[ 90] = 1.0
+[ 91] = 1.0
+[ 92] = 1.0
+[ 93] = 1.0
+[ 94] = 0.0
+[ 95] = 0.0
+[ 96] = 0.0
+[ 97] = 0.0
+[ 98] = 0.0
+[ 99] = 0.0
+[100] = 0.0
+[101] = 0.0
+[102] = 0.0
+[103] = 0.0
+[104] = 0.0
+[105] = 0.0
+[106] = 0.0
+[107] = 0.0
+[108] = 0.0
+[109] = 0.0
+[110] = 0.0
+[111] = 0.0
+[112] = 0.0
+[113] = 0.0
+[114] = 0.0
+[115] = 0.0
+[116] = 0.0
+[117] = 0.0
+[118] = 0.0
+[119] = 0.0
+[120] = 0.0
+[121] = 0.0
+[122] = 0.0
+[123] = 0.0
+[124] = 0.0
+[125] = 0.0
+[126] = 0.0
+[127] = 0.0
+[128] = 0.0
+[129] = 0.0
+[130] = 0.0
+[131] = 0.0
+[132] = 0.0
+[133] = 0.0
+[134] = 0.0
+[135] = 0.0
+[136] = 0.0
+[137] = 0.0
+[138] = 0.0
+[139] = 0.0
+[140] = 0.0
+[141] = 0.0
+[142] = 0.0
+[143] = 0.0
+[144] = 0.0
+[145] = 0.0
+[146] = 0.0
+[147] = 0.0
+[148] = 0.0
+[149] = 0.0
+[150] = 0.0
+[151] = 0.0
+[152] = 0.0
+[153] = 0.0
+[154] = 0.0
+[155] = 0.0
+[156] = 0.0
+[157] = 0.0
+[158] = 0.0
+[159] = 0.0
+[160] = 0.0
+[161] = 0.0
+[162] = 0.0
+[163] = 0.0
+[164] = 0.0
+[165] = 0.0
+[166] = 0.0
+[167] = 0.0
+[168] = 0.0
+[169] = 0.0
+[170] = 0.0
+[171] = 0.0
+[172] = 0.0
+[173] = 0.0
+[174] = 0.0
+[175] = 0.0
+[176] = 0.0
+[177] = 0.0
+[178] = 0.0
+[179] = 0.0
+[180] = 0.0
+[181] = 0.0
+[182] = 0.0
+[183] = 0.0
+[184] = 0.0
+[185] = 0.0
+[186] = 0.0
+[187] = 0.0
+[188] = 0.0
+[189] = 0.0
+[190] = 0.0
+[191] = 0.0
+[192] = 0.0
+[193] = 0.0
+[194] = 0.0
+[195] = 0.0
+[196] = 0.0
+[197] = 0.0
+[198] = 0.0
+[199] = 0.0
+[200] = 0.0
+[201] = 0.0
+[202] = 0.0
+[203] = 0.0
+[204] = 0.0
+[205] = 0.0
+[206] = 0.0
+[207] = 0.0
+[208] = 0.0
+[209] = 0.0
+[210] = 0.0
+[211] = 0.0
+[212] = 0.0
+[213] = 0.0
+[214] = 0.0
+[215] = 0.0
+[216] = 0.0
+[217] = 0.0
+[218] = 0.0
+[219] = 0.0
+[220] = 0.0
+[221] = 0.0
+[222] = 0.0
+[223] = 0.0
+[224] = 0.0
+[225] = 0.0
+[226] = 0.0
+[227] = 0.0
+[228] = 0.0
+[229] = 0.0
+[230] = 0.0
+[231] = 0.0
+[232] = 0.0
+[233] = 0.0
+[234] = 0.0
+[235] = 0.0
+[236] = 0.0
+[237] = 0.0
+[238] = 0.0
+[239] = 0.0
+[240] = 0.0
+[241] = 0.0
+[242] = 0.0
+[243] = 0.0
+[244] = 0.0
+[245] = 0.0
+[246] = 0.0
+[247] = 0.0
+[248] = 0.0
+[249] = 0.0
+[250] = 0.0
+[251] = 0.0
+[252] = 0.0
+[253] = 0.0
+[254] = 0.0
+[255] = 0.0
+[256] = 0.0
+[257] = 0.0
+[258] = 0.0
+[259] = 0.0
+[260] = 0.0
+[261] = 0.0
+[262] = 0.0
+[263] = 0.0
+[264] = 0.0
+[265] = 0.0
+[266] = 0.0
+[267] = 0.0
+[268] = 0.0
+[269] = 0.0
+[270] = 0.0
+[271] = 0.0
+[272] = 0.0
+[273] = 0.0
+[274] = 0.0
+[275] = 0.0
+[276] = 0.0
+[277] = 0.0
+[278] = 0.0
+[279] = 0.0
+[280] = 0.0
+[281] = 0.0
+[282] = 0.0
+[283] = 0.0
+[284] = 0.0
+[285] = 0.0
+[286] = 0.0
+[287] = 0.0
+[288] = 0.0
+[289] = 0.0
+[290] = 0.0
+[291] = 0.0
+[292] = 0.0
+[293] = 0.0
+[294] = 0.0
+[295] = 0.0
+[296] = 0.0
+[297] = 0.0
+[298] = 0.0
+[299] = 0.0
+[300] = 0.0
+[301] = 0.0
+[302] = 0.0
+[303] = 0.0
+[304] = 0.0
+[305] = 0.0
+[306] = 0.0
+[307] = 0.0
+[308] = 0.0
+[309] = 0.0
+[310] = 0.0
+[311] = 0.0
+[312] = 0.0
+[313] = 0.0
+[314] = 0.0
+[315] = 0.0
+[316] = 0.0
+[317] = 0.0
+
+Optimal !
+Objective function value is 93.0
+Selected nodes: 18, 26, 36, 48, 49, 52, 77, 81, 82, 87
+Cbc0030I Thread 0 used 58 times,  waiting to start 0.23288965, 410.49758 cpu time, 288 locks, 0.075128555 locked, 9.9897385e-05 waiting for locks
+Cbc0030I Main thread 415.02784 waiting for threads,  120 locks, 0.00014090538 locked, 8.3446503e-06 waiting for locks
+Cbc0001I Search completed - best objective 93, took 53295 iterations and 58 nodes (678.90 seconds)
+Cbc0032I Strong branching done 592 times (52702 iterations), fathomed 3 nodes and fixed 0 variables
+Cbc0035I Maximum depth 14, 1489 variables fixed on reduced cost
+Total time (CPU seconds):       682.42   (Wallclock seconds):       690.80
+

@@ -1,0 +1,127 @@
+
+###############################################################
+ General Information 
+###############################################################
+
+Formulation: DASKIN, loglevel: 1 , ratio: 0, 
+timeout: 7200.0, threads: 1 
+
+Problem parameters: 
+ n = 10 
+ p = 2 
+
+Instance values: 
+10×10 Named Array{Int64,2}
+A ╲ B │  1   2   3   4   5   6   7   8   9  10
+──────┼───────────────────────────────────────
+1     │  0  38  28  67   5  30  75  48  15  13
+2     │ 96   0   1   6  81  33  75  69  18  78
+3     │  1  77   0  84  25  92  51  74  82   3
+4     │ 94  20  71   0  90  63  30  12  65   8
+5     │ 86  40  85  42   0  16  80  24   5  12
+6     │ 40  79  66  38  27   0  43  14  14  99
+7     │ 42  50  31  20  35   1   0  35  38  47
+8     │ 14   4   2  83  61  75  71   0  68  50
+9     │ 14  53  28  36  21  77   5  94   0  74
+10    │ 72  69  95   6  70  39  67  81  86   0
+Cgl0004I processed model has 121 rows, 111 columns (110 integer (110 of which binary)) and 410 elements
+Cutoff increment increased from 1e-05 to 0.9999
+Cbc0038I Initial state - 49 integers unsatisfied sum - 11.2419
+Cbc0038I Pass   1: suminf.    0.00000 (0) obj. 96 iterations 86
+Cbc0038I Solution found of 96
+Cbc0038I Relaxing continuous gives 96
+Cbc0038I Before mini branch and bound, 56 integers at bound fixed and 0 continuous
+Cbc0038I Full problem 121 rows 111 columns, reduced to 68 rows 55 columns
+Cbc0038I Mini branch and bound improved solution from 96 to 42 (0.03 seconds)
+Cbc0038I Round again with cutoff of 38.5507
+Cbc0038I Pass   2: suminf.    5.59264 (30) obj. 38.5507 iterations 41
+Cbc0038I Pass   3: suminf.    5.02753 (28) obj. 38.5507 iterations 7
+Cbc0038I Pass   4: suminf.    2.65716 (18) obj. 38.5507 iterations 24
+Cbc0038I Pass   5: suminf.    1.28273 (19) obj. 38.5507 iterations 19
+Cbc0038I Pass   6: suminf.    5.43317 (23) obj. 38.5507 iterations 41
+Cbc0038I Pass   7: suminf.    4.68423 (24) obj. 38.5507 iterations 8
+Cbc0038I Pass   8: suminf.    4.70022 (18) obj. 38.5507 iterations 33
+Cbc0038I Pass   9: suminf.    3.90806 (13) obj. 38.5507 iterations 40
+Cbc0038I Pass  10: suminf.    5.60905 (19) obj. 38.5507 iterations 32
+Cbc0038I Pass  11: suminf.    7.97902 (42) obj. 38.5507 iterations 55
+Cbc0038I Pass  12: suminf.    5.72268 (24) obj. 38.5507 iterations 28
+Cbc0038I Pass  13: suminf.    5.72268 (24) obj. 38.5507 iterations 0
+Cbc0038I Pass  14: suminf.    4.75465 (18) obj. 38.5507 iterations 46
+Cbc0038I Pass  15: suminf.    3.90806 (13) obj. 38.5507 iterations 12
+Cbc0038I Pass  16: suminf.    5.94837 (19) obj. 38.5507 iterations 36
+Cbc0038I Pass  17: suminf.    5.14807 (23) obj. 38.5507 iterations 21
+Cbc0038I Pass  18: suminf.    4.75140 (22) obj. 38.5507 iterations 4
+Cbc0038I Pass  19: suminf.    5.02304 (22) obj. 38.5507 iterations 16
+Cbc0038I Pass  20: suminf.    4.78347 (23) obj. 38.5507 iterations 19
+Cbc0038I Pass  21: suminf.   11.49539 (33) obj. 38.5507 iterations 57
+Cbc0038I Pass  22: suminf.    9.12318 (32) obj. 38.5507 iterations 56
+Cbc0038I Pass  23: suminf.    8.69254 (30) obj. 38.5507 iterations 5
+Cbc0038I Pass  24: suminf.    6.67269 (23) obj. 38.5507 iterations 59
+Cbc0038I Pass  25: suminf.    4.39825 (16) obj. 38.5507 iterations 9
+Cbc0038I Pass  26: suminf.    5.00000 (15) obj. 38.5507 iterations 34
+Cbc0038I Pass  27: suminf.    4.61787 (24) obj. 38.5507 iterations 22
+Cbc0038I Pass  28: suminf.    5.30490 (17) obj. 38.5507 iterations 30
+Cbc0038I Pass  29: suminf.    4.61683 (25) obj. 38.5507 iterations 18
+Cbc0038I Pass  30: suminf.    5.56672 (18) obj. 38.5507 iterations 21
+Cbc0038I Pass  31: suminf.    4.86017 (24) obj. 38.5507 iterations 22
+Cbc0038I No solution found this major pass
+Cbc0038I Before mini branch and bound, 24 integers at bound fixed and 0 continuous
+Cbc0038I Full problem 121 rows 111 columns, reduced to 97 rows 87 columns
+Cbc0038I Mini branch and bound did not improve solution (0.05 seconds)
+Cbc0038I After 0.05 seconds - Feasibility pump exiting with objective of 42 - took 0.05 seconds
+Cbc0012I Integer solution of 42 found by feasibility pump after 0 iterations and 0 nodes (0.05 seconds)
+Cbc0038I Full problem 121 rows 111 columns, reduced to 63 rows 50 columns
+
+###############################################################
+ Daskin 
+###############################################################
+
+X 
+10×10 Named Array{Float64,2}
+A ╲ B │   1    2    3    4    5    6    7    8    9   10
+──────┼─────────────────────────────────────────────────
+1     │ 0.0  0.0  1.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0
+2     │ 0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  0.0  0.0
+3     │ 0.0  0.0  1.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0
+4     │ 0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  0.0  0.0
+5     │ 0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  0.0  0.0
+6     │ 0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  0.0  0.0
+7     │ 0.0  0.0  1.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0
+8     │ 0.0  0.0  1.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0
+9     │ 0.0  0.0  1.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0
+10    │ 0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  0.0  0.0
+
+Y 
+10-element Named Array{Float64,1}
+A  │ 
+───┼────
+1  │ 0.0
+2  │ 0.0
+3  │ 1.0
+4  │ 1.0
+5  │ 0.0
+6  │ 0.0
+7  │ 0.0
+8  │ 0.0
+9  │ 0.0
+10 │ 0.0
+
+Optimal !
+Objective function value is 42.0
+Selected nodes: 3, 4
+
+Cbc0031I 1 added rows had average density of 26
+Cbc0013I At root node, 56 cuts changed objective from 16.506461 to 53 in 1 passes
+Cbc0014I Cut generator 0 (Probing) - 44 row cuts average 4.4 elements, 1 column cuts (1 active)  in 0.001 seconds - new frequency is 1
+Cbc0014I Cut generator 1 (Gomory) - 3 row cuts average 34.3 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is 1
+Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 6 (TwoMirCuts) - 9 row cuts average 20.0 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+Cbc0030I Thread 0 used 0 times,  waiting to start 0, 0 cpu time, 0 locks, 0 locked, 0 waiting for locks
+Cbc0030I Main thread 0 waiting for threads,  1 locks, 6.4373016e-06 locked, 2.1457672e-06 waiting for locks
+Cbc0001I Search completed - best objective 42, took 22 iterations and 0 nodes (0.07 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Total time (CPU seconds):       0.07   (Wallclock seconds):       0.07
+

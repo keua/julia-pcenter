@@ -1,0 +1,155 @@
+
+###############################################################
+ General Information 
+###############################################################
+
+Formulation: DASKIN, loglevel: 1 , ratio: 0, 
+timeout: 7200.0, threads: 1 
+
+Problem parameters: 
+ n = 20 
+ p = 10 
+
+Instance values: 
+20×20 Named Array{Int64,2}
+A ╲ B │   1    2    3    4    5    6    7  …   14   15   16   17   18   19   20
+──────┼────────────────────────────────────────────────────────────────────────
+1     │   0   58   35   67    6   63   22  …   86   80    5   90   82   53   66
+2     │  22    0   21   75   62   78   58      31   69   73   50   73   54   38
+3     │  43   92    0   83   77  100   91      87   39    0   84   50   58   74
+4     │  85   91   38    0   59   74   58      54   59   92    1   31   86   88
+5     │  99    4   18   56    0   64   49       4   50   64   63   22   31    1
+6     │  52   19   58   47   77    0   58      37   20   87   19   80   87   28
+7     │  76   99   93   99   70    8    0      74    0   34    7   24   64   57
+8     │   3   53   68   70   33   59   92      50   48   84   55   20   26   22
+9     │  69   61   26   35    0   68   37      90   15   50   76   29   87   97
+⋮         ⋮    ⋮    ⋮    ⋮    ⋮    ⋮    ⋮  ⋱    ⋮    ⋮    ⋮    ⋮    ⋮    ⋮    ⋮
+12    │  25   93   26   55   97    7   73      72   78   77   44   71   27   19
+13    │  39   42   13  100   97   11   57       4   12   71   74    5   58   13
+14    │  96   26   54   22   53   65   30       0   63   51    2   10   21   59
+15    │  89   38   58    8   47    1   16      71    0   22   86   45   99   37
+16    │  38   65   30   97   86   95   28      34    4    0   59  100  100   46
+17    │  26   68   70   93   65   53   14      83   53   31    0   50   91   18
+18    │  11   52   45   20    1   71   92      90   84   50   19    0   65   51
+19    │   5   18   67   86   48   99   44      76    0   20   37   31    0   36
+20    │  67   42   94   32   25   42   62  …   23   19   62   31   80   13    0
+Cgl0004I processed model has 441 rows, 421 columns (420 integer (420 of which binary)) and 1615 elements
+Cutoff increment increased from 1e-05 to 0.9999
+Cbc0038I Initial state - 60 integers unsatisfied sum - 15.1552
+Cbc0038I Pass   1: suminf.    0.00000 (0) obj. 52 iterations 77
+Cbc0038I Solution found of 52
+Cbc0038I Relaxing continuous gives 52
+Cbc0038I Before mini branch and bound, 358 integers at bound fixed and 0 continuous
+Cbc0038I Full problem 441 rows 421 columns, reduced to 69 rows 47 columns
+Cbc0038I Mini branch and bound improved solution from 52 to 3 (0.03 seconds)
+Cbc0038I Round again with cutoff of 1.93178
+Cbc0038I Reduced cost fixing fixed 225 variables on major pass 2
+Cbc0038I Pass   2: suminf.    7.65922 (31) obj. 1.93178 iterations 30
+Cbc0038I Pass   3: suminf.    7.47752 (32) obj. 1.93178 iterations 2
+Cbc0038I Pass   4: suminf.    7.65922 (31) obj. 1.93178 iterations 1
+Cbc0038I Pass   5: suminf.   11.36471 (48) obj. 1.93178 iterations 32
+Cbc0038I Pass   6: suminf.    6.61395 (28) obj. 1.93178 iterations 27
+Cbc0038I Pass   7: suminf.    7.65922 (31) obj. 1.93178 iterations 7
+Cbc0038I Pass   8: suminf.    7.47752 (32) obj. 1.93178 iterations 3
+Cbc0038I Pass   9: suminf.    7.65922 (31) obj. 1.93178 iterations 1
+Cbc0038I Pass  10: suminf.    9.23036 (43) obj. 1.93178 iterations 26
+Cbc0038I Pass  11: suminf.    6.61395 (22) obj. 1.93178 iterations 29
+Cbc0038I Pass  12: suminf.    7.65922 (31) obj. 1.93178 iterations 11
+Cbc0038I Pass  13: suminf.    7.47752 (32) obj. 1.93178 iterations 2
+Cbc0038I Pass  14: suminf.    7.65922 (31) obj. 1.93178 iterations 1
+Cbc0038I Pass  15: suminf.    8.35087 (47) obj. 1.93178 iterations 21
+Cbc0038I Pass  16: suminf.    6.61395 (28) obj. 1.93178 iterations 28
+Cbc0038I Pass  17: suminf.    6.61395 (28) obj. 1.93178 iterations 0
+Cbc0038I Pass  18: suminf.   10.35225 (30) obj. 1.93178 iterations 7
+Cbc0038I Pass  19: suminf.    7.47752 (32) obj. 1.93178 iterations 3
+Cbc0038I Pass  20: suminf.    7.65922 (31) obj. 1.93178 iterations 4
+Cbc0038I Pass  21: suminf.    7.47752 (32) obj. 1.93178 iterations 4
+Cbc0038I Pass  22: suminf.    7.47752 (28) obj. 1.93178 iterations 8
+Cbc0038I Pass  23: suminf.    6.87163 (21) obj. 1.93178 iterations 5
+Cbc0038I Pass  24: suminf.    6.61395 (22) obj. 1.93178 iterations 4
+Cbc0038I Pass  25: suminf.    7.65922 (31) obj. 1.93178 iterations 9
+Cbc0038I Pass  26: suminf.    7.47752 (32) obj. 1.93178 iterations 2
+Cbc0038I Pass  27: suminf.    7.65922 (31) obj. 1.93178 iterations 3
+Cbc0038I Pass  28: suminf.    9.00528 (38) obj. 1.93178 iterations 29
+Cbc0038I Pass  29: suminf.   10.47813 (47) obj. 1.93178 iterations 36
+Cbc0038I Pass  30: suminf.    6.61395 (29) obj. 1.93178 iterations 42
+Cbc0038I Pass  31: suminf.    6.81488 (28) obj. 1.93178 iterations 2
+Cbc0038I No solution found this major pass
+Cbc0038I Before mini branch and bound, 330 integers at bound fixed and 0 continuous
+Cbc0038I Full problem 441 rows 421 columns, reduced to 106 rows 85 columns
+Cbc0038I Mini branch and bound did not improve solution (0.06 seconds)
+Cbc0038I After 0.06 seconds - Feasibility pump exiting with objective of 3 - took 0.05 seconds
+Cbc0012I Integer solution of 3 found by feasibility pump after 0 iterations and 0 nodes (0.06 seconds)
+Cbc0038I Full problem 441 rows 421 columns, reduced to 66 rows 44 columns
+Cbc0006I The LP relaxation is infeasible or too expensive
+Cbc0013I At root node, 0 cuts changed objective from 1.316933 to 1.316933 in 1 passes
+Cbc0014I Cut generator 0 (Probing) - 7 row cuts average 1.7 elements, 4 column cuts (4 active)  in 0.001 seconds - new frequency is 1
+Cbc0014I Cut generator 1 (Gomory) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 colu
+###############################################################
+ Daskin 
+###############################################################
+
+X 
+20×20 Named Array{Float64,2}
+A ╲ B │   1    2    3    4    5    6    7  …   14   15   16   17   18   19   20
+──────┼────────────────────────────────────────────────────────────────────────
+1     │ 1.0  0.0  0.0  0.0  0.0  0.0  0.0  …  0.0  0.0  0.0  0.0  0.0  0.0  0.0
+2     │ 0.0  0.0  0.0  0.0  0.0  0.0  0.0     0.0  0.0  0.0  0.0  0.0  0.0  0.0
+3     │ 0.0  0.0  0.0  0.0  0.0  0.0  0.0     0.0  0.0  1.0  0.0  0.0  0.0  0.0
+4     │ 0.0  0.0  0.0  0.0  0.0  0.0  0.0     0.0  0.0  0.0  1.0  0.0  0.0  0.0
+5     │ 0.0  0.0  0.0  0.0  1.0  0.0  0.0     0.0  0.0  0.0  0.0  0.0  0.0  0.0
+6     │ 0.0  0.0  0.0  0.0  0.0  1.0  0.0     0.0  0.0  0.0  0.0  0.0  0.0  0.0
+7     │ 0.0  0.0  0.0  0.0  0.0  0.0  0.0     0.0  1.0  0.0  0.0  0.0  0.0  0.0
+8     │ 1.0  0.0  0.0  0.0  0.0  0.0  0.0     0.0  0.0  0.0  0.0  0.0  0.0  0.0
+9     │ 0.0  0.0  0.0  0.0  1.0  0.0  0.0     0.0  0.0  0.0  0.0  0.0  0.0  0.0
+⋮         ⋮    ⋮    ⋮    ⋮    ⋮    ⋮    ⋮  ⋱    ⋮    ⋮    ⋮    ⋮    ⋮    ⋮    ⋮
+12    │ 0.0  0.0  0.0  0.0  0.0  0.0  0.0     0.0  0.0  0.0  0.0  0.0  0.0  0.0
+13    │ 0.0  0.0  0.0  0.0  0.0  0.0  0.0     0.0  0.0  0.0  0.0  0.0  0.0  0.0
+14    │ 0.0  0.0  0.0  0.0  0.0  0.0  0.0     0.0  0.0  0.0  1.0  0.0  0.0  0.0
+15    │ 0.0  0.0  0.0  0.0  0.0  0.0  0.0     0.0  1.0  0.0  0.0  0.0  0.0  0.0
+16    │ 0.0  0.0  0.0  0.0  0.0  0.0  0.0     0.0  0.0  1.0  0.0  0.0  0.0  0.0
+17    │ 0.0  0.0  0.0  0.0  0.0  0.0  0.0     0.0  0.0  0.0  1.0  0.0  0.0  0.0
+18    │ 0.0  0.0  0.0  0.0  1.0  0.0  0.0     0.0  0.0  0.0  0.0  0.0  0.0  0.0
+19    │ 0.0  0.0  0.0  0.0  0.0  0.0  0.0     0.0  1.0  0.0  0.0  0.0  0.0  0.0
+20    │ 0.0  0.0  0.0  0.0  0.0  0.0  0.0  …  0.0  0.0  0.0  0.0  0.0  0.0  1.0
+
+Y 
+20-element Named Array{Float64,1}
+A  │ 
+───┼────
+1  │ 1.0
+2  │ 0.0
+3  │ 1.0
+4  │ 0.0
+5  │ 1.0
+6  │ 1.0
+7  │ 0.0
+8  │ 0.0
+9  │ 0.0
+⋮      ⋮
+12 │ 1.0
+13 │ 1.0
+14 │ 0.0
+15 │ 1.0
+16 │ 1.0
+17 │ 1.0
+18 │ 0.0
+19 │ 0.0
+20 │ 1.0
+
+Optimal !
+Objective function value is 3.0
+Selected nodes: 1, 3, 5, 6, 12, 13, 16, 17, 20
+
+mn cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 6 (TwoMirCuts) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0030I Thread 0 used 0 times,  waiting to start 2.3841858e-07, 0 cpu time, 0 locks, 0 locked, 0 waiting for locks
+Cbc0030I Main thread 0 waiting for threads,  1 locks, 6.4373016e-06 locked, 2.3841858e-06 waiting for locks
+Cbc0001I Search completed - best objective 3, took 0 iterations and 0 nodes (0.07 seconds)
+Cbc0035I Maximum depth 0, 222 variables fixed on reduced cost
+Total time (CPU seconds):       0.07   (Wallclock seconds):       0.08
+
