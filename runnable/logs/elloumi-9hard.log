@@ -48,10 +48,10 @@ Cgl0003I 0 fixed, 0 tightened bounds, 4599 strengthened rows, 0 substitutions
 Cgl0004I processed model has 26064 rows, 389 columns (389 integer (389 of which binary)) and 2367816 elements
 Cutoff increment increased from 1e-05 to 0.9999
 Cbc0038I Initial state - 233 integers unsatisfied sum - 39.4604
-Cbc0038I Pass   1: (58.72 seconds) suminf.   17.56364 (92) obj. 38.4273 iterations 675
-Cbc0038I Pass   2: (59.60 seconds) suminf.   12.06250 (58) obj. 42.0125 iterations 175
-Cbc0038I Pass   3: (60.46 seconds) suminf.    2.50000 (5) obj. 40.5 iterations 207
-Cbc0038I Pass   4: (60.86 seconds) suminf.    0.00000 (0) obj. 40 iterations 68
+Cbc0038I Pass   1: (64.30 seconds) suminf.   17.56364 (92) obj. 38.4273 iterations 675
+Cbc0038I Pass   2: (65.37 seconds) suminf.   12.06250 (58) obj. 42.0125 iterations 175
+Cbc0038I Pass   3: (66.39 seconds) suminf.    2.50000 (5) obj. 40.5 iterations 207
+Cbc0038I Pass   4: (66.91 seconds) suminf.    0.00000 (0) obj. 40 iterations 68
 Cbc0038I Solution found of 40
 Cbc0038I Before mini branch and bound, 151 integers at bound fixed and 0 continuous
 Cbc0038I Full problem 26064 rows 389 columns, reduced to 17534 rows 238 columns - 19 fixed gives 10356, 219 - ok now
@@ -65,7 +65,7 @@ Cbc0046I Root node pass 1, 10356 rows, 0 total tight cuts  -  objective 36.32015
 Cbc0013I At root node, 0 cuts changed objective from 36.320154 to 36.565217 in 1 passes
 Cbc0014I Cut generator 0 (Probing) - 0 row cuts average 0.0 elements, 20 column cuts (20 active)
 Node 0 depth 0 unsatisfied 85 sum 5.99991e+14 obj 36.5652 guess 57.1913 branching on 170
-Cbc0010I After 0 nodes, 1 on tree, 1e+50 best solution, best possible 36.565217 (78.11 seconds)
+Cbc0010I After 0 nodes, 1 on tree, 1e+50 best solution, best possible 36.565217 (85.11 seconds)
 Node 1 depth 1 unsatisfied 87 sum 6.91844e+11 obj 36.5673 guess 36.5673 branching on 114
 Node 2 depth 2 unsatisfied 86 sum 1.96832e+13 obj 36.5673 guess 37.3283 branching on 200
 Node 3 depth 3 unsatisfied 64 sum 1.30152e+13 obj 36.6164 guess 37.175 branching on 46
@@ -82,7 +82,7 @@ Node 14 depth 12 unsatisfied 30 sum 1.38177 obj 38.2 guess 38.7077 branching on 
 Node 15 depth 13 unsatisfied 31 sum 4.79655e+11 obj 38.3333 guess 38.7597 branching on 38
 Node 16 depth 13 unsatisfied 33 sum 2.20738e+12 obj 38.3333 guess 38.7593 branching on 63
 Node 17 depth 12 unsatisfied 0 sum 0 obj 39 guess 39 branching on -1
-Cbc0004I Integer solution of 39 found after 2612 iterations and 17 nodes (82.69 seconds)
+Cbc0004I Integer solution of 39 found after 2612 iterations and 17 nodes (89.76 seconds)
 Node 18 depth 7 unsatisfied 62 sum 2.46059e+10 obj 36.8923 guess 38.2315 branching on 23
 Node 20 depth 9 unsatisfied 53 sum 2.09977e+09 obj 37.2 guess 38.2932 branching on 23
 Node 21 depth 10 unsatisfied 32 sum 0.132763 obj 37.7778 guess 38.5548 branching on 202
@@ -102,7 +102,7 @@ Node 47 depth 11 unsatisfied 41 sum 1.39083 obj 37.8333 guess 38.2345 branching 
 Node 48 depth 12 unsatisfied 36 sum 1.22693 obj 37.8333 guess 38.1374 branching on 17
 Node 49 depth 13 unsatisfied 32 sum 0.0404726 obj 38 guess 38.2651 branching on 61
 Node 50 depth 13 unsatisfied 30 sum 0.0403259 obj 38 guess 38.2651 branching on 61
-Cbc0010I After 50 nodes, 12 on tree, 39 best solution, best possible 36.565217 (92.15 seconds)
+Cbc0010I After 50 nodes, 12 on tree, 39 best solution, best possible 36.565217 (99.25 seconds)
 Node 55 depth 12 unsatisfied 32 sum 0.0744202 obj 38 guess 38.3369 branching on 17
 Node 58 depth 11 unsatisfied 47 sum 6.80467 obj 37.6923 guess 38.0273 branching on 17
 Node 59 depth 12 unsatisfied 43 sum 1.47433 obj 37.8333 guess 38.1044 branching on 1
@@ -128,7 +128,7 @@ Node 94 depth 14 unsatisfied 30 sum 0.0599675 obj 38 guess 38.1565 branching on 
 Node 98 depth 12 unsatisfied 37 sum 1.8378 obj 37.8636 guess 38.1635 branching on 17
 Node 99 depth 13 unsatisfied 28 sum 0.0778795 obj 38 guess 38.1972 branching on 63
 Node 100 depth 14 unsatisfied 28 sum 0.0728276 obj 38 guess 38.1556 branching on 207
-Cbc0010I After 100 nodes, 12 on tree, 39 best solution, best possible 36.565217 (99.21 seconds)
+Cbc0010I After 100 nodes, 12 on tree, 39 best solution, best possible 36.565217 (106.37 seconds)
 Node 104 depth 13 unsatisfied 28 sum 0.0814381 obj 38 guess 38.1845 branching on 207
 Node 107 depth 14 unsatisfied 34 sum 0.105277 obj 38 guess 38.2473 branching on 1
 Node 108 depth 15 unsatisfied 34 sum 0.109454 obj 38 guess 38.2314 branching on 47
@@ -145,67 +145,67 @@ Node 135 depth 6 unsatisfied 43 sum 136.286 obj 36.8333 guess 37.7109 branching 
 Node 136 depth 7 unsatisfied 36 sum 95.9105 obj 37 guess 37.8084 branching on 54
 Node 137 depth 8 unsatisfied 37 sum 0.271057 obj 38 guess 38.3326 branching on 137
 Cbc0050I Exiting on maximum number of iterations
-Cbc0005I Partial search - best objective 39 (best possible 36.565217), took 21425 iterations and 137 nodes (105.84 seconds)
+Cbc0005I Partial search - best objective 39 (best possible 36.565217), took 21425 iterations and 137 nodes (113.04 seconds)
 Cbc0032I Strong branching done 296 times (2501 iterations), fathomed 0 nodes and fixed 0 variables
 Cbc0035I Maximum depth 16, 511 variables fixed on reduced cost
 Cbc0029I Ending sub-tree for CbcHeuristicLocalAfterFPump
-Cbc0038I Mini branch and bound improved solution from 40 to 39 (107.28 seconds)
+Cbc0038I Mini branch and bound improved solution from 40 to 39 (114.48 seconds)
 Cbc0038I Round again with cutoff of 37.3553
 Cbc0038I Reduced cost fixing fixed 3 variables on major pass 2
-Cbc0038I Pass   5: (108.22 seconds) suminf.   17.70484 (87) obj. 37.3553 iterations 43
-Cbc0038I Pass   6: (109.65 seconds) suminf.    6.48681 (19) obj. 37.3553 iterations 286
-Cbc0038I Pass   7: (110.64 seconds) suminf.    5.28948 (15) obj. 37.3553 iterations 199
-Cbc0038I Pass   8: (111.24 seconds) suminf.    1.93423 (6) obj. 37.3553 iterations 162
-Cbc0038I Pass   9: (111.83 seconds) suminf.    1.35526 (4) obj. 37.3553 iterations 147
-Cbc0038I Pass  10: (112.85 seconds) suminf.    1.25000 (5) obj. 37.25 iterations 225
-Cbc0038I Pass  11: (115.86 seconds) suminf.    2.06577 (6) obj. 37.3553 iterations 732
-Cbc0038I Pass  12: (117.61 seconds) suminf.    0.00000 (0) obj. 37 iterations 316
+Cbc0038I Pass   5: (115.71 seconds) suminf.   17.70484 (87) obj. 37.3553 iterations 43
+Cbc0038I Pass   6: (117.37 seconds) suminf.    6.48681 (19) obj. 37.3553 iterations 286
+Cbc0038I Pass   7: (118.59 seconds) suminf.    5.28948 (15) obj. 37.3553 iterations 199
+Cbc0038I Pass   8: (119.36 seconds) suminf.    1.93423 (6) obj. 37.3553 iterations 162
+Cbc0038I Pass   9: (120.09 seconds) suminf.    1.35526 (4) obj. 37.3553 iterations 147
+Cbc0038I Pass  10: (121.38 seconds) suminf.    1.25000 (5) obj. 37.25 iterations 225
+Cbc0038I Pass  11: (124.92 seconds) suminf.    2.06577 (6) obj. 37.3553 iterations 732
+Cbc0038I Pass  12: (126.93 seconds) suminf.    0.00000 (0) obj. 37 iterations 316
 Cbc0038I Solution found of 37
 Cbc0038I Before mini branch and bound, 153 integers at bound fixed and 0 continuous
 Cbc0038I Full problem 26064 rows 389 columns, reduced to 17408 rows 236 columns - 53 fixed gives 1049, 169 - ok now
 Cgl0004I processed model has 705 rows, 156 columns (156 integer (155 of which binary)) and 16341 elements
 Cbc0038I Full problem 26064 rows 389 columns, reduced to 705 rows 156 columns
 Cbc0028I Starting sub-tree for CbcHeuristicLocalAfterFPump - maximum nodes 200
-Cbc0045I Heuristic feasibility pump took 1e-06 seconds (no good)
+Cbc0045I Heuristic feasibility pump took 2e-06 seconds (no good)
 Cbc0045I Heuristic rounding took 1e-06 seconds (no good)
 Node 0 depth 0 unsatisfied 0 sum 0 obj 37 guess 37 branching on -1
-Cbc0004I Integer solution of 37 found after 0 iterations and 0 nodes (135.89 seconds)
-Cbc0001I Search completed - best objective 37, took 0 iterations and 0 nodes (135.89 seconds)
+Cbc0004I Integer solution of 37 found after 0 iterations and 0 nodes (146.29 seconds)
+Cbc0001I Search completed - best objective 37, took 0 iterations and 0 nodes (146.29 seconds)
 Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
 Cbc0029I Ending sub-tree for CbcHeuristicLocalAfterFPump
-Cbc0038I Mini branch and bound did not improve solution (136.12 seconds)
+Cbc0038I Mini branch and bound did not improve solution (146.53 seconds)
 Cbc0038I Round again with cutoff of 35.1104
 Cbc0038I Reduced cost fixing fixed 5 variables on major pass 3
-Cbc0038I Pass  13: (139.06 seconds) suminf.   17.55625 (85) obj. 35.1104 iterations 333
-Cbc0038I Pass  14: (141.40 seconds) suminf.   11.83751 (60) obj. 35.1104 iterations 381
-Cbc0038I Pass  15: (144.18 seconds) suminf.   10.26917 (61) obj. 35.1104 iterations 450
-Cbc0038I Pass  16: (144.97 seconds) suminf.    9.99394 (62) obj. 35.1104 iterations 114
-Cbc0038I Pass  17: (147.98 seconds) suminf.   13.32448 (141) obj. 35.1104 iterations 441
-Cbc0038I Pass  18: (150.40 seconds) suminf.   10.60261 (156) obj. 35.1104 iterations 346
-Cbc0038I Pass  19: (152.39 seconds) suminf.    9.67798 (65) obj. 35.1104 iterations 310
-Cbc0038I Pass  20: (155.42 seconds) suminf.   11.41910 (155) obj. 35.1104 iterations 470
-Cbc0038I Pass  21: (158.36 seconds) suminf.    9.34438 (64) obj. 35.1104 iterations 425
-Cbc0038I Pass  22: (158.99 seconds) suminf.    9.29495 (63) obj. 35.1104 iterations 66
-Cbc0038I Pass  23: (161.56 seconds) suminf.   10.31597 (143) obj. 35.1104 iterations 430
-Cbc0038I Pass  24: (164.07 seconds) suminf.    9.33284 (55) obj. 35.1104 iterations 396
-Cbc0038I Pass  25: (167.77 seconds) suminf.   14.16360 (140) obj. 35.1104 iterations 581
-Cbc0038I Pass  26: (169.00 seconds) suminf.   14.07166 (170) obj. 35.1104 iterations 152
-Cbc0038I Pass  27: (171.08 seconds) suminf.   12.98995 (155) obj. 35.1104 iterations 293
-Cbc0038I Pass  28: (172.35 seconds) suminf.   10.89913 (160) obj. 35.1104 iterations 164
-Cbc0038I Pass  29: (173.44 seconds) suminf.    9.95424 (108) obj. 35.1104 iterations 147
-Cbc0038I Pass  30: (176.20 seconds) suminf.   10.52543 (157) obj. 35.1104 iterations 391
-Cbc0038I Pass  31: (177.14 seconds) suminf.    9.66653 (62) obj. 35.1104 iterations 116
-Cbc0038I Pass  32: (178.91 seconds) suminf.   10.78912 (160) obj. 35.1104 iterations 239
-Cbc0038I Pass  33: (181.08 seconds) suminf.    9.59127 (61) obj. 35.1104 iterations 309
-Cbc0038I Pass  34: (184.97 seconds) suminf.   13.39427 (146) obj. 35.1104 iterations 668
-Cbc0038I Pass  35: (186.19 seconds) suminf.   13.07353 (144) obj. 35.1104 iterations 155
-Cbc0038I Pass  36: (187.09 seconds) suminf.   12.89724 (148) obj. 35.1104 iterations 94
-Cbc0038I Pass  37: (191.05 seconds) suminf.   14.19457 (73) obj. 35.1104 iterations 699
-Cbc0038I Pass  38: (193.27 seconds) suminf.   12.58332 (145) obj. 35.1104 iterations 320
-Cbc0038I Pass  39: (194.21 seconds) suminf.   11.14396 (149) obj. 35.1104 iterations 113
-Cbc0038I Pass  40: (197.85 seconds) suminf.   13.35052 (47) obj. 35.1104 iterations 749
-Cbc0038I Pass  41: (198.82 seconds) suminf.    9.94980 (56) obj. 35.1104 iterations 155
-Cbc0038I Pass  42: (200.76 seconds) suminf.    9.32353 (60) obj. 35.1104 iterations 306
+Cbc0038I Pass  13: (150.09 seconds) suminf.   17.55625 (85) obj. 35.1104 iterations 333
+Cbc0038I Pass  14: (152.81 seconds) suminf.   11.83751 (60) obj. 35.1104 iterations 381
+Cbc0038I Pass  15: (156.09 seconds) suminf.   10.26917 (61) obj. 35.1104 iterations 450
+Cbc0038I Pass  16: (157.08 seconds) suminf.    9.99394 (62) obj. 35.1104 iterations 114
+Cbc0038I Pass  17: (160.59 seconds) suminf.   13.32448 (141) obj. 35.1104 iterations 441
+Cbc0038I Pass  18: (163.39 seconds) suminf.   10.60261 (156) obj. 35.1104 iterations 346
+Cbc0038I Pass  19: (165.78 seconds) suminf.    9.67798 (65) obj. 35.1104 iterations 310
+Cbc0038I Pass  20: (169.29 seconds) suminf.   11.41910 (155) obj. 35.1104 iterations 470
+Cbc0038I Pass  21: (172.73 seconds) suminf.    9.34438 (64) obj. 35.1104 iterations 425
+Cbc0038I Pass  22: (173.57 seconds) suminf.    9.29495 (63) obj. 35.1104 iterations 66
+Cbc0038I Pass  23: (176.59 seconds) suminf.   10.31597 (143) obj. 35.1104 iterations 430
+Cbc0038I Pass  24: (179.49 seconds) suminf.    9.33284 (55) obj. 35.1104 iterations 396
+Cbc0038I Pass  25: (183.79 seconds) suminf.   14.16360 (140) obj. 35.1104 iterations 581
+Cbc0038I Pass  26: (185.30 seconds) suminf.   14.07166 (170) obj. 35.1104 iterations 152
+Cbc0038I Pass  27: (187.80 seconds) suminf.   12.98995 (155) obj. 35.1104 iterations 293
+Cbc0038I Pass  28: (189.38 seconds) suminf.   10.89913 (160) obj. 35.1104 iterations 164
+Cbc0038I Pass  29: (190.79 seconds) suminf.    9.95424 (108) obj. 35.1104 iterations 147
+Cbc0038I Pass  30: (194.03 seconds) suminf.   10.52543 (157) obj. 35.1104 iterations 391
+Cbc0038I Pass  31: (195.16 seconds) suminf.    9.66653 (62) obj. 35.1104 iterations 116
+Cbc0038I Pass  32: (197.21 seconds) suminf.   10.78912 (160) obj. 35.1104 iterations 239
+Cbc0038I Pass  33: (199.74 seconds) suminf.    9.59127 (61) obj. 35.1104 iterations 309
+Cbc0038I Pass  34: (204.25 seconds) suminf.   13.39427 (146) obj. 35.1104 iterations 668
+Cbc0038I Pass  35: (205.76 seconds) suminf.   13.07353 (144) obj. 35.1104 iterations 155
+Cbc0038I Pass  36: (206.93 seconds) suminf.   12.89724 (148) obj. 35.1104 iterations 94
+Cbc0038I Pass  37: (211.57 seconds) suminf.   14.19457 (73) obj. 35.1104 iterations 699
+Cbc0038I Pass  38: (214.22 seconds) suminf.   12.58332 (145) obj. 35.1104 iterations 320
+Cbc0038I Pass  39: (215.39 seconds) suminf.   11.14396 (149) obj. 35.1104 iterations 113
+Cbc0038I Pass  40: (219.60 seconds) suminf.   13.35052 (47) obj. 35.1104 iterations 749
+Cbc0038I Pass  41: (220.83 seconds) suminf.    9.94980 (56) obj. 35.1104 iterations 155
+Cbc0038I Pass  42: (223.23 seconds) suminf.    9.32353 (60) obj. 35.1104 iterations 306
 Cbc0038I No solution found this major pass
 Cbc0038I Before mini branch and bound, 152 integers at bound fixed and 0 continuous
 Cbc0038I Full problem 26064 rows 389 columns, reduced to 17419 rows 237 columns - 53 fixed gives 1050, 170 - ok now
@@ -213,24 +213,24 @@ Cgl0004I processed model has 706 rows, 157 columns (157 integer (156 of which bi
 Cbc0038I Full problem 26064 rows 389 columns, reduced to 706 rows 157 columns
 Cbc0028I Starting sub-tree for CbcHeuristicLocalAfterFPump - maximum nodes 200
 Cbc0045I Heuristic feasibility pump took 1e-06 seconds (no good)
-Cbc0045I Heuristic rounding took 1e-06 seconds (no good)
+Cbc0045I Heuristic rounding took 0 seconds (no good)
 Node 0 depth 0 unsatisfied 0 sum 0 obj 37 guess 37 branching on -1
-Cbc0004I Integer solution of 37 found after 0 iterations and 0 nodes (220.20 seconds)
-Cbc0001I Search completed - best objective 37, took 0 iterations and 0 nodes (220.20 seconds)
+Cbc0004I Integer solution of 37 found after 0 iterations and 0 nodes (243.92 seconds)
+Cbc0001I Search completed - best objective 37, took 0 iterations and 0 nodes (243.92 seconds)
 Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
 Cbc0029I Ending sub-tree for CbcHeuristicLocalAfterFPump
-Cbc0038I Mini branch and bound did not improve solution (220.43 seconds)
-Cbc0038I After 220.43 seconds - Feasibility pump exiting with objective of 37 - took 165.98 seconds
-Cbc0045I Heuristic feasibility pump took 165.983 seconds (good)
-Cbc0012I Integer solution of 37 found by feasibility pump after 0 iterations and 0 nodes (220.50 seconds)
-Cbc0045I Heuristic rounding took 0 seconds (no good)
-Cbc0045I Heuristic greedy cover took 0 seconds (no good)
+Cbc0038I Mini branch and bound did not improve solution (244.15 seconds)
+Cbc0038I After 244.15 seconds - Feasibility pump exiting with objective of 37 - took 184.84 seconds
+Cbc0045I Heuristic feasibility pump took 184.84 seconds (good)
+Cbc0012I Integer solution of 37 found by feasibility pump after 0 iterations and 0 nodes (244.23 seconds)
+Cbc0045I Heuristic rounding took 1e-06 seconds (no good)
+Cbc0045I Heuristic greedy cover took 1e-06 seconds (no good)
 Cbc0045I Heuristic greedy equality took 1e-06 seconds (no good)
-Cbc0045I Heuristic DiveCoefficient took 58.4474 seconds (no good)
+Cbc0045I Heuristic DiveCoefficient took 66.1949 seconds (no good)
 Cbc0038I Full problem 26064 rows 389 columns, reduced to 17372 rows 233 columns - 53 fixed gives 1044, 166 - ok now
 Cgl0000I Cut generators found to be infeasible! (or unbounded)
 Pre-processing says infeasible
-Cbc0045I Heuristic RINS took 19.2032 seconds (no good)
+Cbc0045I Heuristic RINS took 20.3482 seconds (no good)
 Cbc0046I Root node pass 1, 26064 rows, 0 total tight cuts  -  objective 31.551681
 Cbc0046I Root node pass 2, 26068 rows, 4 total tight cuts  -  objective 33.562343
 Cbc0046I Root node pass 3, 26081 rows, 17 total tight cuts  -  objective 33.948309
@@ -241,15 +241,15 @@ Cbc0046I Root node pass 7, 26080 rows, 16 total tight cuts  -  objective 34.3096
 Cbc0046I Root node pass 8, 26083 rows, 19 total tight cuts  -  objective 34.30967
 Cbc0031I 19 added rows had average density of 88.842105
 Cbc0013I At root node, 19 cuts changed objective from 31.551681 to 34.30967 in 8 passes
-Cbc0014I Cut generator 0 (Probing) - 629 row cuts average 5.4 elements, 32 column cuts (32 active)  in 1.223 seconds - new frequency is 1
-Cbc0014I Cut generator 1 (Gomory) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 2.143 seconds - new frequency is -100
+Cbc0014I Cut generator 0 (Probing) - 629 row cuts average 5.4 elements, 32 column cuts (32 active)  in 1.238 seconds - new frequency is 1
+Cbc0014I Cut generator 1 (Gomory) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 2.762 seconds - new frequency is -100
 Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.099 seconds - new frequency is -100
 Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.034 seconds - new frequency is -100
-Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 13.304 seconds - new frequency is -100
-Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.149 seconds - new frequency is -100
-Cbc0014I Cut generator 6 (TwoMirCuts) - 440 row cuts average 180.7 elements, 0 column cuts (0 active)  in 4.385 seconds - new frequency is 1
+Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 13.540 seconds - new frequency is -100
+Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.151 seconds - new frequency is -100
+Cbc0014I Cut generator 6 (TwoMirCuts) - 440 row cuts average 180.7 elements, 0 column cuts (0 active)  in 5.087 seconds - new frequency is 1
 Node 0 depth 0 unsatisfied 149 sum 1.97196e+14 obj 34.3097 guess 61.4215 branching on 22
-Cbc0010I After 0 nodes, 1 on tree, 37 best solution, best possible 34.30967 (431.26 seconds)
+Cbc0010I After 0 nodes, 1 on tree, 37 best solution, best possible 34.30967 (481.16 seconds)
 Clp0014I Perturbing problem by 0.001 % of 100 - largest nonzero change 9.8060523e-05 (% 9.8060523e-05) - largest zero change 9.7238392e-05
 Clp0006I 0  Obj 34.30967 Primal inf 0.46417329 (1)
 Clp0006I 414  Obj 34.322024 Primal inf 29844.919 (6063)
@@ -438,3 +438,1536 @@ Clp0006I 0  Obj 34.454649 Primal inf 0.0052696884 (1)
 Clp0006I 0  Obj 34.454649 Primal inf 0.0052696884 (1)
 Clp0006I 0  Obj 34.454649 Primal inf 0.0047301116 (1)
 Node 2 depth 2 unsatisfied 137 sum 8.24559e+09 obj 34.4546 guess 34.5997 branching on 23
+Clp0014I Perturbing problem by 0.001 % of 19.54482 - largest nonzero change 0 (% 0) - largest zero change 2.8344368e-05
+Clp0006I 0  Obj 34.454649 Primal inf 0.12823927 (1)
+Clp0006I 199  Obj 34.456288
+Clp0000I Optimal - objective value 34.456288
+Clp0014I Perturbing problem by 0.001 % of 19.54482 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 34.456288 Primal inf 0.059412582 (1)
+Clp0006I 35  Obj 34.456427
+Clp0000I Optimal - objective value 34.456427
+Clp0014I Perturbing problem by 0.001 % of 19.54482 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 34.456427 Primal inf 0.11200966 (1)
+Clp0006I 314  Obj 34.508215
+Clp0000I Optimal - objective value 34.508215
+Clp0014I Perturbing problem by 0.001 % of 19.54482 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 34.508215 Primal inf 0.26773069 (1)
+Clp0006I 56  Obj 34.521245
+Clp0000I Optimal - objective value 34.521245
+Clp0014I Perturbing problem by 0.001 % of 19.54482 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 34.521245 Primal inf 0.29618718 (1)
+Clp0006I 164  Obj 34.614329
+Clp0000I Optimal - objective value 34.614329
+Clp0014I Perturbing problem by 0.001 % of 19.54482 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 34.614329 Primal inf 0.31651142 (1)
+Clp0006I 95  Obj 34.796596
+Clp0000I Optimal - objective value 34.796596
+Clp0014I Perturbing problem by 0.001 % of 19.54482 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 34.796596 Primal inf 0.28746793 (1)
+Clp0006I 62  Obj 34.888833
+Clp0000I Optimal - objective value 34.888833
+Clp0014I Perturbing problem by 0.001 % of 19.54482 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 34.888833 Primal inf 0.33337537 (1)
+Clp0006I 68  Obj 35.074181
+Clp0000I Optimal - objective value 35.074181
+Clp0014I Perturbing problem by 0.001 % of 19.54482 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.074181 Primal inf 0.3856264 (1)
+Clp0006I 71  Obj 35.217742
+Clp0000I Optimal - objective value 35.217742
+Clp0014I Perturbing problem by 0.001 % of 19.54482 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.217742 Primal inf 0.44354829 (1)
+Clp0006I 165  Obj 35.460526
+Clp0000I Optimal - objective value 35.460526
+Clp0014I Perturbing problem by 0.001 % of 19.54482 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.460526 Primal inf 0.32894727 (1)
+Clp0006I 57  Obj 35.613636
+Clp0000I Optimal - objective value 35.613636
+Clp0014I Perturbing problem by 0.001 % of 19.54482 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.613636 Primal inf 0.28409081 (1)
+Clp0006I 90  Obj 35.755322
+Clp0000I Optimal - objective value 35.755322
+Clp0014I Perturbing problem by 0.001 % of 19.54482 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.755322 Primal inf 0.49983616 (1)
+Clp0006I 28  Obj 36
+Clp0000I Optimal - objective value 36
+Clp0014I Perturbing problem by 0.001 % of 18.520259 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.2499999 (1)
+Clp0006I 23  Obj 36.157895
+Clp0001I Primal infeasible - objective value 36.157895
+Clp0014I Perturbing problem by 0.001 % of 19.54482 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.2499999 (1)
+Clp0006I 35  Obj 36.157895
+Clp0001I Primal infeasible - objective value 36.157895
+Clp0014I Perturbing problem by 0.001 % of 19.54482 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.7499999 (1)
+Clp0006I 101  Obj 36.666667
+Clp0001I Primal infeasible - objective value 36.666667
+Clp0014I Perturbing problem by 0.001 % of 100 - largest nonzero change 9.8403694e-05 (% 9.8403694e-05) - largest zero change 9.6841911e-05
+Clp0006I 0  Obj 34.454649 Primal inf 3.0941541 (13)
+Clp0006I 414  Obj 34.457414 Primal inf 59145.454 (7360)
+Clp0006I 828  Obj 34.46391 Primal inf 65446.354 (5018)
+Clp0006I 1206  Obj 34.482398 Primal inf 24826.678 (5021)
+Clp0006I 1620  Obj 34.566206 Primal inf 174093.01 (7287)
+Clp0006I 2034  Obj 34.632705 Primal inf 606052.31 (9219)
+Clp0006I 2448  Obj 34.674501 Primal inf 28624.307 (4940)
+Clp0006I 2723  Obj 34.739855 Primal inf 5799209 (6470)
+Clp0006I 2946  Obj 34.86689 Primal inf 78645.877 (6373)
+Clp0006I 3314  Obj 35.128888 Primal inf 279390.71 (7888)
+Clp0006I 3402  Obj 35.149423
+Clp0000I Optimal - objective value 35.149254
+Clp0014I Perturbing problem by 0.001 % of 22.497095 - largest nonzero change 0 (% 0) - largest zero change 3.1752385e-05
+Clp0006I 0  Obj 35.149253 Primal inf 0.014925273 (1)
+Clp0006I 27  Obj 35.153845
+Clp0000I Optimal - objective value 35.153846
+Clp0014I Perturbing problem by 0.001 % of 17.663522 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.153846 Primal inf 0.025640926 (1)
+Clp0006I 74  Obj 35.166667
+Clp0000I Optimal - objective value 35.166667
+Clp0014I Perturbing problem by 0.001 % of 17.663522 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.166667 Primal inf 0.0399999 (1)
+Clp0006I 51  Obj 35.189189
+Clp0000I Optimal - objective value 35.189189
+Clp0014I Perturbing problem by 0.001 % of 17.663522 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.189189 Primal inf 0.054053954 (1)
+Clp0006I 33  Obj 35.225806
+Clp0000I Optimal - objective value 35.225806
+Clp0014I Perturbing problem by 0.001 % of 17.663522 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.225806 Primal inf 0.29032248 (1)
+Clp0006I 75  Obj 35.267327
+Clp0000I Optimal - objective value 35.267327
+Clp0014I Perturbing problem by 0.001 % of 17.663522 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.267327 Primal inf 0.33899073 (1)
+Clp0006I 39  Obj 35.313123
+Clp0000I Optimal - objective value 35.313123
+Clp0014I Perturbing problem by 0.001 % of 17.663522 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.313123 Primal inf 0.36138807 (1)
+Clp0000I Optimal - objective value 35.31533
+Clp0014I Perturbing problem by 0.001 % of 17.663522 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.31533 Primal inf 0.037331463 (1)
+Clp0000I Optimal - objective value 35.31533
+Clp0014I Perturbing problem by 0.001 % of 17.663522 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.31533 Primal inf 0.35199901 (1)
+Clp0006I 69  Obj 35.5
+Clp0000I Optimal - objective value 35.5
+Clp0014I Perturbing problem by 0.001 % of 17.47961 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.5 Primal inf 0.38864835 (1)
+Clp0000I Optimal - objective value 35.5
+Clp0014I Perturbing problem by 0.001 % of 17.47961 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.5 Primal inf 0.1890233 (1)
+Clp0006I 61  Obj 35.559588
+Clp0000I Optimal - objective value 35.559588
+Clp0014I Perturbing problem by 0.001 % of 17.47961 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.559588 Primal inf 0.44041224 (1)
+Clp0006I 83  Obj 36
+Clp0000I Optimal - objective value 36
+Clp0014I Perturbing problem by 0.001 % of 17.47961 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.33333323 (1)
+Clp0006I 65  Obj 36.25
+Clp0001I Primal infeasible - objective value 36.25
+Clp0014I Perturbing problem by 0.001 % of 17.47961 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.33333323 (1)
+Clp0006I 63  Obj 36.25
+Clp0001I Primal infeasible - objective value 36.25
+Clp0014I Perturbing problem by 0.001 % of 17.47961 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.66666657 (1)
+Clp0000I Optimal - objective value 36
+Clp0014I Perturbing problem by 0.001 % of 17.47961 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.33333323 (1)
+Clp0006I 93  Obj 36.25
+Clp0001I Primal infeasible - objective value 36.25
+Clp0014I Perturbing problem by 0.001 % of 17.47961 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.33333323 (1)
+Clp0006I 79  Obj 36.25
+Clp0001I Primal infeasible - objective value 36.25
+Clp0014I Perturbing problem by 0.001 % of 17.47961 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.66666657 (1)
+Clp0006I 77  Obj 37
+Clp0001I Primal infeasible - objective value 37
+Clp0014I Perturbing problem by 0.001 % of 34.788026 - largest nonzero change 2.5199024e-05 (% 7.2435914e-05) - largest zero change 2.5089934e-05
+Clp0006I 0  Obj 35.149253 Primal inf 0.067200407 (3)
+Clp0000I Optimal - objective value 35.149254
+Clp0000I Optimal - objective value 35.149254
+Clp0006I 0  Obj 35.149254 Primal inf 0.02958695 (1)
+Clp0006I 0  Obj 35.149254 Primal inf 0.023261715 (1)
+Clp0006I 0  Obj 35.149254 Primal inf 0.033129039 (1)
+Clp0006I 0  Obj 35.149254 Primal inf 0.019719626 (1)
+Clp0006I 0  Obj 35.149254 Primal inf 0.033129039 (1)
+Clp0006I 0  Obj 35.149254 Primal inf 0.019719626 (1)
+Clp0006I 0  Obj 35.149254 Primal inf 0.01931777 (1)
+Clp0006I 0  Obj 35.149254 Primal inf 0.033530895 (1)
+Clp0006I 0  Obj 35.149254 Primal inf 0.01931777 (1)
+Clp0006I 0  Obj 35.149254 Primal inf 0.033530895 (1)
+Clp0006I 0  Obj 35.149254 Primal inf 0.033917828 (1)
+Clp0006I 0  Obj 35.149254 Primal inf 0.018930837 (1)
+Clp0006I 0  Obj 35.149254 Primal inf 0.033917828 (1)
+Clp0006I 0  Obj 35.149254 Primal inf 0.018930837 (1)
+Clp0006I 0  Obj 35.149254 Primal inf 0.033917828 (1)
+Clp0006I 0  Obj 35.149254 Primal inf 0.018930837 (1)
+Clp0006I 0  Obj 35.149254 Primal inf 0.018142048 (1)
+Clp0006I 0  Obj 35.149254 Primal inf 0.034706617 (1)
+Clp0006I 0  Obj 35.149254 Primal inf 0.018142048 (1)
+Clp0006I 0  Obj 35.149254 Primal inf 0.034706617 (1)
+Clp0006I 0  Obj 35.149254 Primal inf 0.034706617 (1)
+Clp0006I 0  Obj 35.149254 Primal inf 0.018142048 (1)
+Node 3 depth 3 unsatisfied 70 sum 1.66144e+09 obj 35.1493 guess 35.1993 branching on 1
+Clp0014I Perturbing problem by 0.001 % of 13.670391 - largest nonzero change 0 (% 0) - largest zero change 2.3138855e-05
+Clp0006I 0  Obj 35.149252 Primal inf 0.014925273 (1)
+Clp0006I 29  Obj 35.153845
+Clp0000I Optimal - objective value 35.153846
+Clp0014I Perturbing problem by 0.001 % of 9.8316005 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.153846 Primal inf 0.025640926 (1)
+Clp0006I 46  Obj 35.166667
+Clp0000I Optimal - objective value 35.166667
+Clp0014I Perturbing problem by 0.001 % of 9.8316005 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.166667 Primal inf 0.048074864 (1)
+Clp0006I 59  Obj 35.190476
+Clp0000I Optimal - objective value 35.190476
+Clp0014I Perturbing problem by 0.001 % of 9.8316005 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.190476 Primal inf 0.077380852 (1)
+Clp0006I 92  Obj 35.225806
+Clp0000I Optimal - objective value 35.225806
+Clp0014I Perturbing problem by 0.001 % of 9.8316005 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.225806 Primal inf 0.29032248 (1)
+Clp0000I Optimal - objective value 35.25
+Clp0014I Perturbing problem by 0.001 % of 9.8316005 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.25 Primal inf 0.35714276 (1)
+Clp0006I 62  Obj 35.307692
+Clp0000I Optimal - objective value 35.307692
+Clp0014I Perturbing problem by 0.001 % of 9.8316005 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.307692 Primal inf 0.35897426 (1)
+Clp0000I Optimal - objective value 35.310345
+Clp0014I Perturbing problem by 0.001 % of 9.8316005 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.310345 Primal inf 0.034482659 (1)
+Clp0000I Optimal - objective value 35.310345
+Clp0014I Perturbing problem by 0.001 % of 9.8316005 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.310345 Primal inf 0.35057461 (1)
+Clp0006I 73  Obj 35.5
+Clp0000I Optimal - objective value 35.5
+Clp0014I Perturbing problem by 0.001 % of 9.8316005 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.5 Primal inf 0.12182788 (1)
+Clp0000I Optimal - objective value 35.5
+Clp0014I Perturbing problem by 0.001 % of 9.8316005 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.5 Primal inf 0.4999999 (1)
+Clp0000I Optimal - objective value 35.5
+Clp0014I Perturbing problem by 0.001 % of 9.8316005 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.5 Primal inf 0.4999999 (1)
+Clp0006I 120  Obj 36
+Clp0000I Optimal - objective value 36
+Clp0014I Perturbing problem by 0.001 % of 9.0036846 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 47  Obj 37
+Clp0001I Primal infeasible - objective value 37
+Clp0014I Perturbing problem by 0.001 % of 9.8316005 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 57  Obj 37
+Clp0001I Primal infeasible - objective value 37
+Clp0014I Perturbing problem by 0.001 % of 9.8316005 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 80  Obj 36.5
+Clp0001I Primal infeasible - objective value 36.5
+Clp0014I Perturbing problem by 0.001 % of 18.921882 - largest nonzero change 1.3998923e-05 (% 7.3982717e-05) - largest zero change 1.3815295e-05
+Clp0006I 0  Obj 35.149253 Primal inf 0.64179094 (1)
+Clp0006I 414  Obj 35.285722 Primal inf 32296.857 (6433)
+Clp0006I 828  Obj 35.285764 Primal inf 17459.971 (5328)
+Clp0006I 1070  Obj 35.285788 Primal inf 30743.569 (5787)
+Clp0006I 1484  Obj 35.285857 Primal inf 3431.0753 (2465)
+Clp0006I 1709  Obj 35.450138
+Clp0000I Optimal - objective value 35.45
+Clp0014I Perturbing problem by 0.001 % of 13.670391 - largest nonzero change 0 (% 0) - largest zero change 2.3138855e-05
+Clp0006I 0  Obj 35.45 Primal inf 0.0999999 (1)
+Clp0000I Optimal - objective value 35.45
+Clp0014I Perturbing problem by 0.001 % of 9.1467551 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.45 Primal inf 0.2499999 (1)
+Clp0006I 165  Obj 35.5
+Clp0000I Optimal - objective value 35.5
+Clp0014I Perturbing problem by 0.001 % of 9.1467551 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.5 Primal inf 0.22222212 (1)
+Clp0006I 209  Obj 35.545455
+Clp0000I Optimal - objective value 35.545455
+Clp0014I Perturbing problem by 0.001 % of 9.1467551 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.545455 Primal inf 0.045454445 (1)
+Clp0000I Optimal - objective value 35.545455
+Clp0014I Perturbing problem by 0.001 % of 9.1467551 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.545455 Primal inf 0.27272717 (1)
+Clp0006I 51  Obj 35.666667
+Clp0000I Optimal - objective value 35.666667
+Clp0014I Perturbing problem by 0.001 % of 9.1467551 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.666667 Primal inf 0.16666657 (1)
+Clp0000I Optimal - objective value 35.666667
+Clp0014I Perturbing problem by 0.001 % of 9.1467551 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.666667 Primal inf 0.33333323 (1)
+Clp0000I Optimal - objective value 35.666667
+Clp0014I Perturbing problem by 0.001 % of 9.1467551 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.666667 Primal inf 0.33333323 (1)
+Clp0006I 68  Obj 36
+Clp0000I Optimal - objective value 36
+Clp0014I Perturbing problem by 0.001 % of 9.1467551 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.1999999 (1)
+Clp0006I 26  Obj 36.166667
+Clp0001I Primal infeasible - objective value 36.166667
+Clp0014I Perturbing problem by 0.001 % of 9.1467551 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.1999999 (1)
+Clp0006I 26  Obj 36.166667
+Clp0001I Primal infeasible - objective value 36.166667
+Clp0014I Perturbing problem by 0.001 % of 9.1467551 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.7999999 (1)
+Clp0006I 79  Obj 37
+Clp0001I Primal infeasible - objective value 37
+Clp0061I Crunch 23567 (-2499) rows, 208 (-181) columns and 2189202 (-178623) elements
+Clp1001I Initial range of elements is 1 to 2
+Clp1004I Not bothering to scale as good enough
+Clp0000I Optimal - objective value 35.45
+Clp0006I 0  Obj 35.45 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 35.45 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 35.45 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 35.45 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 35.45 Primal inf 0.4499999 (1)
+Clp0006I 0  Obj 35.45 Primal inf 0.5499999 (1)
+Clp0006I 0  Obj 35.45 Primal inf 0.4499999 (1)
+Clp0006I 0  Obj 35.45 Primal inf 0.5499999 (1)
+Clp0006I 0  Obj 35.45 Primal inf 0.3999999 (1)
+Clp0006I 0  Obj 35.45 Primal inf 0.5999999 (1)
+Clp0006I 0  Obj 35.45 Primal inf 0.3999999 (1)
+Clp0006I 0  Obj 35.45 Primal inf 0.5999999 (1)
+Clp0006I 0  Obj 35.45 Primal inf 0.3499999 (1)
+Clp0006I 0  Obj 35.45 Primal inf 0.6499999 (1)
+Clp0006I 0  Obj 35.45 Primal inf 0.2999999 (1)
+Clp0006I 0  Obj 35.45 Primal inf 0.6999999 (1)
+Clp0006I 0  Obj 35.45 Primal inf 0.2499999 (1)
+Clp0006I 0  Obj 35.45 Primal inf 0.7499999 (1)
+Clp0006I 0  Obj 35.45 Primal inf 0.2499999 (1)
+Clp0006I 0  Obj 35.45 Primal inf 0.7499999 (1)
+Clp0006I 0  Obj 35.45 Primal inf 0.2499999 (1)
+Clp0006I 0  Obj 35.45 Primal inf 0.7499999 (1)
+Node 4 depth 4 unsatisfied 66 sum 1.18929e+11 obj 35.45 guess 35.9448 branching on 145
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.7586629e-05
+Clp0006I 0  Obj 35.45 Primal inf 0.0999999 (1)
+Clp0000I Optimal - objective value 35.45
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.45 Primal inf 0.2499999 (1)
+Clp0006I 129  Obj 35.5
+Clp0000I Optimal - objective value 35.5
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.5 Primal inf 0.19047609 (1)
+Clp0006I 131  Obj 35.53125
+Clp0000I Optimal - objective value 35.53125
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.53125 Primal inf 0.0624999 (1)
+Clp0000I Optimal - objective value 35.53125
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.53125 Primal inf 0.3124999 (1)
+Clp0006I 56  Obj 35.666667
+Clp0000I Optimal - objective value 35.666667
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.666667 Primal inf 0.33333323 (1)
+Clp0006I 75  Obj 36
+Clp0000I Optimal - objective value 36
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.1999999 (1)
+Clp0000I Optimal - objective value 36
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.33333323 (1)
+Clp0006I 24  Obj 36.25
+Clp0001I Primal infeasible - objective value 36.25
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.33333323 (1)
+Clp0006I 24  Obj 36.25
+Clp0001I Primal infeasible - objective value 36.25
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.66666657 (1)
+Clp0006I 31  Obj 36.5
+Clp0001I Primal infeasible - objective value 36.5
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 1.4754648e-05 (% 0.0014754648) - largest zero change 1.4602086e-05
+Clp0006I 0  Obj 35.45 Primal inf 0.2499999 (1)
+Clp0006I 192  Obj 35.461538
+Clp0000I Optimal - objective value 35.461538
+Clp0061I Crunch 23432 (-2634) rows, 199 (-190) columns and 2171135 (-196690) elements
+Clp1001I Initial range of elements is 1 to 2
+Clp1004I Not bothering to scale as good enough
+Clp0000I Optimal - objective value 35.461538
+Clp0006I 0  Obj 35.461538 Primal inf 0.69230759 (1)
+Clp0006I 0  Obj 35.461538 Primal inf 0.30769221 (1)
+Clp0006I 0  Obj 35.461538 Primal inf 0.30769221 (1)
+Clp0006I 0  Obj 35.461538 Primal inf 0.69230759 (1)
+Clp0006I 0  Obj 35.461538 Primal inf 0.30769221 (1)
+Clp0006I 0  Obj 35.461538 Primal inf 0.69230759 (1)
+Clp0006I 0  Obj 35.461538 Primal inf 0.30769221 (1)
+Clp0006I 0  Obj 35.461538 Primal inf 0.69230759 (1)
+Clp0006I 0  Obj 35.461538 Primal inf 0.69230759 (1)
+Clp0006I 0  Obj 35.461538 Primal inf 0.30769221 (1)
+Clp0006I 0  Obj 35.461538 Primal inf 0.30769221 (1)
+Clp0006I 0  Obj 35.461538 Primal inf 0.69230759 (1)
+Clp0006I 0  Obj 35.461538 Primal inf 0.23076913 (1)
+Clp0006I 0  Obj 35.461538 Primal inf 0.76923067 (1)
+Clp0006I 0  Obj 35.461538 Primal inf 0.23076913 (1)
+Clp0006I 0  Obj 35.461538 Primal inf 0.76923067 (1)
+Clp0006I 0  Obj 35.461538 Primal inf 0.15384605 (1)
+Clp0006I 0  Obj 35.461538 Primal inf 0.84615375 (1)
+Clp0006I 0  Obj 35.461538 Primal inf 0.15384605 (1)
+Clp0006I 0  Obj 35.461538 Primal inf 0.84615375 (1)
+Clp0006I 0  Obj 35.461538 Primal inf 0.15384605 (1)
+Clp0006I 0  Obj 35.461538 Primal inf 0.84615375 (1)
+Node 5 depth 5 unsatisfied 62 sum 6.86448e+10 obj 35.4615 guess 35.8154 branching on 62
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 1.0784592e-05 (% 0.0010784592) - largest zero change 1.0752987e-05
+Clp0006I 0  Obj 35.461521 Primal inf 0.30769221 (1)
+Clp0006I 159  Obj 35.499982
+Clp0000I Optimal - objective value 35.5
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.9131088e-05
+Clp0006I 0  Obj 35.49984 Primal inf 0.4999999 (1)
+Clp0006I 221  Obj 35.99984
+Clp0000I Optimal - objective value 36
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.33333323 (1)
+Clp0006I 36  Obj 37
+Clp0001I Primal infeasible - objective value 37
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.9702095e-05
+Clp0006I 0  Obj 35.999863 Primal inf 0.33333323 (1)
+Clp0001I Primal infeasible - objective value 36.25
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.9702095e-05
+Clp0006I 0  Obj 35.999863 Primal inf 0.66666657 (1)
+Clp0006I 24  Obj 35.99989
+Clp0000I Optimal - objective value 36
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.33333323 (1)
+Clp0006I 60  Obj 36.333333
+Clp0001I Primal infeasible - objective value 36.333333
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.971269e-05
+Clp0006I 0  Obj 35.999838 Primal inf 0.33333323 (1)
+Clp0001I Primal infeasible - objective value 36.333333
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.971269e-05
+Clp0006I 0  Obj 35.999838 Primal inf 0.66666657 (1)
+Clp0000I Optimal - objective value 36
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.33333323 (1)
+Clp0006I 25  Obj 36.4
+Clp0001I Primal infeasible - objective value 36.4
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.971269e-05
+Clp0006I 0  Obj 35.999826 Primal inf 0.33333323 (1)
+Clp0001I Primal infeasible - objective value 36.333333
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.971269e-05
+Clp0006I 0  Obj 35.999826 Primal inf 0.66666657 (1)
+Clp0006I 52  Obj 36.249826
+Clp0001I Primal infeasible - objective value 36.25
+Clp0014I Perturbing problem by 0.001 % of 22.497095 - largest nonzero change 0 (% 0) - largest zero change 3.2307719e-05
+Clp0006I 0  Obj 35.499998 Primal inf 0.96887611 (7)
+Clp0006I 48  Obj 35.499998
+Clp0000I Optimal - objective value 35.5
+Clp0061I Crunch 23431 (-2637) rows, 198 (-191) columns and 2158960 (-209188) elements
+Clp1001I Initial range of elements is 0.010860219 to 2
+Clp1003I Final range of elements is 0.13598165 to 7.3539334
+Clp0000I Optimal - objective value 35.5
+Clp0006I 0  Obj 35.5 Primal inf 0.067990725 (1)
+Clp0006I 0  Obj 35.5 Primal inf 0.067990725 (1)
+Clp0006I 0  Obj 35.5 Primal inf 0.03892343 (1)
+Clp0006I 0  Obj 35.5 Primal inf 0.097058019 (1)
+Clp0006I 0  Obj 35.5 Primal inf 0.10154231 (1)
+Clp0006I 0  Obj 35.5 Primal inf 0.034439144 (1)
+Clp0006I 0  Obj 35.5 Primal inf 0.034439144 (1)
+Clp0006I 0  Obj 35.5 Primal inf 0.10154231 (1)
+Clp0006I 0  Obj 35.5 Primal inf 0.033551481 (1)
+Clp0006I 0  Obj 35.5 Primal inf 0.10242997 (1)
+Clp0006I 0  Obj 35.5 Primal inf 0.029067194 (1)
+Clp0006I 0  Obj 35.5 Primal inf 0.10691426 (1)
+Clp0006I 0  Obj 35.5 Primal inf 0.029067194 (1)
+Clp0006I 0  Obj 35.5 Primal inf 0.10691426 (1)
+Clp0006I 0  Obj 35.5 Primal inf 0.067990725 (1)
+Clp0006I 0  Obj 35.5 Primal inf 0.067990725 (1)
+Clp0006I 0  Obj 35.5 Primal inf 0.067990725 (1)
+Clp0006I 0  Obj 35.5 Primal inf 0.067990725 (1)
+Clp0006I 0  Obj 35.5 Primal inf 0.067990725 (1)
+Clp0006I 0  Obj 35.5 Primal inf 0.067990725 (1)
+Clp0006I 0  Obj 35.5 Primal inf 0.067990725 (1)
+Clp0006I 0  Obj 35.5 Primal inf 0.067990725 (1)
+Node 6 depth 6 unsatisfied 40 sum 3.39498e+10 obj 35.5 guess 35.7559 branching on 64
+Clp0014I Perturbing problem by 0.001 % of 7.3539334 - largest nonzero change 0 (% 0) - largest zero change 9.9560393e-05
+Clp0006I 0  Obj 35.499985 Primal inf 0.4999999 (1)
+Clp0006I 414  Obj 35.599981 Primal inf 99025.561 (6781)
+Clp0006I 828  Obj 35.600024 Primal inf 72991.09 (6396)
+Clp0006I 1233  Obj 35.600089 Primal inf 40055.624 (6407)
+Clp0006I 1405  Obj 35.62973
+Clp0000I Optimal - objective value 35.62963
+Clp0061I Crunch 23342 (-2724) rows, 185 (-204) columns and 2005399 (-362426) elements
+Clp1001I Initial range of elements is 1 to 2
+Clp1004I Not bothering to scale as good enough
+Clp0000I Optimal - objective value 35.62963
+Clp0006I 0  Obj 35.62963 Primal inf 0.25925916 (1)
+Clp0006I 0  Obj 35.62963 Primal inf 0.74074064 (1)
+Clp0006I 0  Obj 35.62963 Primal inf 0.25925916 (1)
+Clp0006I 0  Obj 35.62963 Primal inf 0.74074064 (1)
+Clp0006I 0  Obj 35.62963 Primal inf 0.14814805 (1)
+Clp0006I 0  Obj 35.62963 Primal inf 0.85185175 (1)
+Clp0006I 0  Obj 35.62963 Primal inf 0.14814805 (1)
+Clp0006I 0  Obj 35.62963 Primal inf 0.85185175 (1)
+Clp0006I 0  Obj 35.62963 Primal inf 0.14814805 (1)
+Clp0006I 0  Obj 35.62963 Primal inf 0.85185175 (1)
+Clp0006I 0  Obj 35.62963 Primal inf 0.14814805 (1)
+Clp0006I 0  Obj 35.62963 Primal inf 0.85185175 (1)
+Clp0006I 0  Obj 35.62963 Primal inf 0.14814805 (1)
+Clp0006I 0  Obj 35.62963 Primal inf 0.85185175 (1)
+Clp0006I 0  Obj 35.62963 Primal inf 0.14814805 (1)
+Clp0006I 0  Obj 35.62963 Primal inf 0.85185175 (1)
+Clp0006I 0  Obj 35.62963 Primal inf 0.14814805 (1)
+Clp0006I 0  Obj 35.62963 Primal inf 0.85185175 (1)
+Clp0006I 0  Obj 35.62963 Primal inf 0.14814805 (1)
+Clp0006I 0  Obj 35.62963 Primal inf 0.85185175 (1)
+Clp0006I 0  Obj 35.62963 Primal inf 0.14814805 (1)
+Clp0006I 0  Obj 35.62963 Primal inf 0.85185175 (1)
+Node 7 depth 7 unsatisfied 62 sum 4.71263e+10 obj 35.6296 guess 35.8379 branching on 239
+Clp0014I Perturbing problem by 0.001 % of 7.3539334 - largest nonzero change 0 (% 0) - largest zero change 9.9560393e-05
+Clp0006I 0  Obj 35.499985 Primal inf 0.4999999 (1)
+Clp0006I 414  Obj 35.599987 Primal inf 26779.91 (5154)
+Clp0006I 828  Obj 35.600022 Primal inf 7196.0831 (3659)
+Clp0006I 1115  Obj 35.700039 Primal inf 540.74525 (937)
+Clp0006I 1176  Obj 35.700049
+Clp0000I Optimal - objective value 35.7
+Clp0061I Crunch 23325 (-2741) rows, 181 (-208) columns and 1958793 (-409032) elements
+Clp1001I Initial range of elements is 1 to 2
+Clp1004I Not bothering to scale as good enough
+Clp0000I Optimal - objective value 35.7
+Clp0006I 0  Obj 35.7 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 35.7 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 35.7 Primal inf 0.4499999 (1)
+Clp0006I 0  Obj 35.7 Primal inf 0.5499999 (1)
+Clp0006I 0  Obj 35.7 Primal inf 0.5499999 (1)
+Clp0006I 0  Obj 35.7 Primal inf 0.4499999 (1)
+Clp0006I 0  Obj 35.7 Primal inf 0.5999999 (1)
+Clp0006I 0  Obj 35.7 Primal inf 0.3999999 (1)
+Clp0006I 0  Obj 35.7 Primal inf 0.3999999 (1)
+Clp0006I 0  Obj 35.7 Primal inf 0.5999999 (1)
+Clp0006I 0  Obj 35.7 Primal inf 0.3499999 (1)
+Clp0006I 0  Obj 35.7 Primal inf 0.6499999 (1)
+Clp0006I 0  Obj 35.7 Primal inf 0.1499999 (1)
+Clp0006I 0  Obj 35.7 Primal inf 0.8499999 (1)
+Clp0006I 0  Obj 35.7 Primal inf 0.8999999 (1)
+Clp0006I 0  Obj 35.7 Primal inf 0.0999999 (1)
+Clp0006I 0  Obj 35.7 Primal inf 0.0499999 (1)
+Clp0006I 0  Obj 35.7 Primal inf 0.9499999 (1)
+Clp0006I 0  Obj 35.7 Primal inf 0.0499999 (1)
+Clp0006I 0  Obj 35.7 Primal inf 0.9499999 (1)
+Clp0006I 0  Obj 35.7 Primal inf 0.0499999 (1)
+Clp0006I 0  Obj 35.7 Primal inf 0.9499999 (1)
+Node 8 depth 7 unsatisfied 69 sum 8.07166e+10 obj 35.7 guess 36.0802 branching on 63
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.9492871e-05
+Clp0006I 0  Obj 35.629548 Primal inf 0.14814805 (1)
+Clp0006I 257  Obj 35.749936
+Clp0000I Optimal - objective value 35.75
+Clp0061I Crunch 23318 (-2748) rows, 181 (-208) columns and 1970358 (-397467) elements
+Clp1001I Initial range of elements is 1 to 2
+Clp1004I Not bothering to scale as good enough
+Clp0000I Optimal - objective value 35.75
+Clp0006I 0  Obj 35.75 Primal inf 0.2499999 (1)
+Clp0006I 0  Obj 35.75 Primal inf 0.7499999 (1)
+Clp0006I 0  Obj 35.75 Primal inf 0.2499999 (1)
+Clp0006I 0  Obj 35.75 Primal inf 0.7499999 (1)
+Clp0006I 0  Obj 35.75 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 35.75 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 35.75 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 35.75 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 35.75 Primal inf 0.7499999 (1)
+Clp0006I 0  Obj 35.75 Primal inf 0.2499999 (1)
+Clp0006I 0  Obj 35.75 Primal inf 0.7499999 (1)
+Clp0006I 0  Obj 35.75 Primal inf 0.2499999 (1)
+Clp0006I 0  Obj 35.75 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 35.75 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 35.75 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 35.75 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 35.75 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 35.75 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 35.75 Primal inf 0.2499999 (1)
+Clp0006I 0  Obj 35.75 Primal inf 0.7499999 (1)
+Clp0006I 0  Obj 35.75 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 35.75 Primal inf 0.4999999 (1)
+Node 9 depth 8 unsatisfied 40 sum 1.42267e+10 obj 35.75 guess 35.8735 branching on 192
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.8086242e-05
+Clp0006I 0  Obj 35.749811 Primal inf 0.4999999 (1)
+Clp0006I 149  Obj 35.999811
+Clp0000I Optimal - objective value 36
+Clp0061I Crunch 23191 (-2874) rows, 169 (-220) columns and 1819856 (-547965) elements
+Clp1001I Initial range of elements is 1 to 2
+Clp1004I Not bothering to scale as good enough
+Clp0000I Optimal - objective value 36
+Clp0006I 0  Obj 36 Primal inf 0.14285704 (1)
+Clp0006I 0  Obj 36 Primal inf 0.85714276 (1)
+Clp0006I 0  Obj 36 Primal inf 0.14285704 (1)
+Clp0006I 0  Obj 36 Primal inf 0.85714276 (1)
+Clp0006I 0  Obj 36 Primal inf 0.42857133 (1)
+Clp0006I 0  Obj 36 Primal inf 0.57142847 (1)
+Clp0006I 0  Obj 36 Primal inf 0.85714276 (1)
+Clp0006I 0  Obj 36 Primal inf 0.14285704 (1)
+Clp0006I 0  Obj 36 Primal inf 0.71428561 (1)
+Clp0006I 0  Obj 36 Primal inf 0.28571419 (1)
+Clp0006I 0  Obj 36 Primal inf 0.71428561 (1)
+Clp0006I 0  Obj 36 Primal inf 0.28571419 (1)
+Clp0006I 0  Obj 36 Primal inf 0.42857133 (1)
+Clp0006I 0  Obj 36 Primal inf 0.57142847 (1)
+Clp0006I 0  Obj 36 Primal inf 0.14285704 (1)
+Clp0006I 0  Obj 36 Primal inf 0.85714276 (1)
+Clp0006I 0  Obj 36 Primal inf 0.14285704 (1)
+Clp0006I 0  Obj 36 Primal inf 0.85714276 (1)
+Clp0006I 0  Obj 36 Primal inf 0.57142847 (1)
+Clp0006I 0  Obj 36 Primal inf 0.42857133 (1)
+Node 10 depth 9 unsatisfied 41 sum 5.37968e+09 obj 36 guess 36.0974 branching on 17
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.8086242e-05
+Clp0006I 0  Obj 35.749811 Primal inf 0.4999999 (1)
+Clp0006I 414  Obj 35.999811 Primal inf 1985.9077 (2228)
+Clp0006I 828  Obj 35.999811 Primal inf 168191.88 (6136)
+Clp0006I 1242  Obj 35.99984 Primal inf 92613.752 (8161)
+Clp0006I 1656  Obj 35.99989 Primal inf 239.99998 (228)
+Clp0001I Primal infeasible - objective value 36.166667
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.9492871e-05
+Clp0006I 0  Obj 35.629548 Primal inf 0.85185175 (1)
+Clp0006I 414  Obj 35.99992 Primal inf 18705.362 (4201)
+Clp0006I 828  Obj 36.285662 Primal inf 229976.71 (7024)
+Clp0001I Primal infeasible - objective value 36.285662
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.971269e-05
+Clp0006I 0  Obj 35.99999 Primal inf 0.42857133 (1)
+Clp0006I 371  Obj 36.000014 Primal inf 17.208308 (255)
+Clp0000I Optimal - objective value 36
+Clp1001I Initial range of elements is 1 to 2
+Clp1004I Not bothering to scale as good enough
+Clp0006I 0  Obj 36 Primal inf 0.66666657 (1)
+Clp0006I 0  Obj 36 Primal inf 0.33333323 (1)
+Clp0006I 0  Obj 36 Primal inf 0.33333323 (1)
+Clp0006I 0  Obj 36 Primal inf 0.66666657 (1)
+Clp0006I 0  Obj 36 Primal inf 0.33333323 (1)
+Clp0006I 0  Obj 36 Primal inf 0.66666657 (1)
+Clp0006I 0  Obj 36 Primal inf 0.66666657 (1)
+Clp0006I 0  Obj 36 Primal inf 0.33333323 (1)
+Clp0006I 0  Obj 36 Primal inf 0.33333323 (1)
+Clp0006I 0  Obj 36 Primal inf 0.66666657 (1)
+Clp0006I 0  Obj 36 Primal inf 0.33333323 (1)
+Clp0006I 0  Obj 36 Primal inf 0.66666657 (1)
+Clp0006I 0  Obj 36 Primal inf 0.66666657 (1)
+Clp0006I 0  Obj 36 Primal inf 0.33333323 (1)
+Node 13 depth 10 unsatisfied 32 sum 0.181275 obj 36 guess 36.0065 branching on 92
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 1.9239163e-05 (% 0.0019239163) - largest zero change 1.9120773e-05
+Clp0006I 0  Obj 35.999947 Primal inf 0.33333323 (1)
+Clp0000I Optimal - objective value 36
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 2.0768769e-05 (% 0.0020768769) - largest zero change 2.0764556e-05
+Clp0006I 0  Obj 35.999927 Primal inf 0.66666657 (1)
+Clp0006I 414  Obj 35.999927 Primal inf 20185.538 (4940)
+Clp0006I 828  Obj 36.499931 Primal inf 195.99997 (319)
+Clp0001I Primal infeasible - objective value 36.499931
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 1.9239163e-05 (% 0.0019239163) - largest zero change 1.9120773e-05
+Clp0006I 0  Obj 35.999947 Primal inf 0.66666657 (1)
+Clp0006I 133  Obj 36.499955
+Clp0001I Primal infeasible - objective value 36.5
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.971269e-05
+Clp0006I 0  Obj 35.99999 Primal inf 0.57142847 (1)
+Clp0006I 414  Obj 35.99999 Primal inf 24894.415 (5169)
+Clp0006I 828  Obj 36.000013 Primal inf 85775.575 (5857)
+Clp0006I 1185  Obj 36.400039
+Clp0001I Primal infeasible - objective value 36.4
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.8086242e-05
+Clp0006I 0  Obj 35.699844 Primal inf 1.4999997 (3)
+Clp0006I 414  Obj 35.999847 Primal inf 22239.766 (5337)
+Clp0006I 828  Obj 35.99989 Primal inf 540112.32 (8093)
+Clp0006I 1051  Obj 35.999916 Primal inf 1094.9999 (936)
+Clp0006I 1373  Obj 36.333278
+Clp0001I Primal infeasible - objective value 36.333333
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.8086242e-05
+Clp0006I 0  Obj 35.699844 Primal inf 0.4999999 (1)
+Clp0006I 414  Obj 35.799846 Primal inf 24903.395 (6007)
+Clp0006I 828  Obj 35.799891 Primal inf 25829.823 (4950)
+Clp0006I 1097  Obj 35.866594
+Clp0000I Optimal - objective value 35.866667
+Clp0014I Perturbing problem by 0.001 % of 22.497095 - largest nonzero change 0 (% 0) - largest zero change 3.2226224e-05
+Clp0006I 0  Obj 35.866663 Primal inf 0.040272475 (1)
+Clp0000I Optimal - objective value 35.866667
+Clp0006I 0  Obj 35.866667 Primal inf 0.0059265911 (1)
+Clp0006I 0  Obj 35.866667 Primal inf 0.038523392 (1)
+Clp0006I 0  Obj 35.866667 Primal inf 0.0059265911 (1)
+Clp0006I 0  Obj 35.866667 Primal inf 0.038523392 (1)
+Clp0006I 0  Obj 35.866667 Primal inf 0.0034440657 (1)
+Clp0006I 0  Obj 35.866667 Primal inf 0.041005918 (1)
+Clp0006I 0  Obj 35.866667 Primal inf 0.0059265911 (1)
+Clp0006I 0  Obj 35.866667 Primal inf 0.038523392 (1)
+Clp0006I 0  Obj 35.866667 Primal inf 0.012334102 (1)
+Clp0006I 0  Obj 35.866667 Primal inf 0.032115881 (1)
+Clp0006I 0  Obj 35.866667 Primal inf 0.0059265911 (1)
+Clp0006I 0  Obj 35.866667 Primal inf 0.038523392 (1)
+Clp0006I 0  Obj 35.866667 Primal inf 0.0059265911 (1)
+Clp0006I 0  Obj 35.866667 Primal inf 0.038523392 (1)
+Clp0006I 0  Obj 35.866667 Primal inf 0.0059265911 (1)
+Clp0006I 0  Obj 35.866667 Primal inf 0.038523392 (1)
+Clp0006I 0  Obj 35.866667 Primal inf 0.010371609 (1)
+Clp0006I 0  Obj 35.866667 Primal inf 0.034078374 (1)
+Clp0006I 0  Obj 35.866667 Primal inf 0.017299153 (1)
+Clp0006I 0  Obj 35.866667 Primal inf 0.02715083 (1)
+Clp0006I 0  Obj 35.866667 Primal inf 0.013334955 (1)
+Clp0006I 0  Obj 35.866667 Primal inf 0.031115028 (1)
+Node 18 depth 8 unsatisfied 67 sum 1.07792e+10 obj 35.8667 guess 36.2133 branching on 238
+Clp0014I Perturbing problem by 0.001 % of 17.47961 - largest nonzero change 0 (% 0) - largest zero change 2.6559975e-05
+Clp0006I 0  Obj 35.866664 Primal inf 0.13333323 (1)
+Clp0006I 48  Obj 35.925923
+Clp0000I Optimal - objective value 35.925926
+Clp0014I Perturbing problem by 0.001 % of 17.47961 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.925926 Primal inf 0.14814805 (1)
+Clp0006I 58  Obj 36
+Clp0000I Optimal - objective value 36
+Clp0014I Perturbing problem by 0.001 % of 17.47961 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.16666657 (1)
+Clp0006I 94  Obj 36.107143
+Clp0001I Primal infeasible - objective value 36.107143
+Clp0014I Perturbing problem by 0.001 % of 17.47961 - largest nonzero change 0 (% 0) - largest zero change 2.0249841e-05
+Clp0006I 0  Obj 36 Primal inf 0.16666657 (1)
+Clp0006I 98  Obj 36.076923
+Clp0001I Primal infeasible - objective value 36.076923
+Clp0014I Perturbing problem by 0.001 % of 17.47961 - largest nonzero change 0 (% 0) - largest zero change 2.0249841e-05
+Clp0006I 0  Obj 36 Primal inf 0.83333323 (1)
+Clp0006I 183  Obj 36.2
+Clp0001I Primal infeasible - objective value 36.2
+Clp0014I Perturbing problem by 0.001 % of 22.497095 - largest nonzero change 0 (% 0) - largest zero change 3.2226224e-05
+Clp0006I 0  Obj 35.866663 Primal inf 0.13333323 (1)
+Clp0006I 173  Obj 36.166665
+Clp0001I Primal infeasible - objective value 36.166667
+Clp0014I Perturbing problem by 0.001 % of 22.497095 - largest nonzero change 0 (% 0) - largest zero change 3.2226224e-05
+Clp0006I 0  Obj 35.866663 Primal inf 0.86666657 (1)
+Clp0006I 414  Obj 36.352941 Primal inf 50934.019 (5948)
+Clp0001I Primal infeasible - objective value 36.352941
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 1.0784592e-05 (% 0.0010784592) - largest zero change 1.0752987e-05
+Clp0006I 0  Obj 35.461521 Primal inf 0.69230759 (1)
+Clp0006I 414  Obj 35.599986 Primal inf 153389.1 (7181)
+Clp0006I 828  Obj 35.600025 Primal inf 77192.081 (7176)
+Clp0006I 1110  Obj 35.600066 Primal inf 1980.0498 (1923)
+Clp0006I 1285  Obj 35.75683
+Clp0000I Optimal - objective value 35.756757
+Clp0061I Crunch 23267 (-2799) rows, 178 (-211) columns and 1932798 (-435027) elements
+Clp1001I Initial range of elements is 1 to 2
+Clp1004I Not bothering to scale as good enough
+Clp0000I Optimal - objective value 35.756757
+Clp0006I 0  Obj 35.756757 Primal inf 0.35135125 (1)
+Clp0006I 0  Obj 35.756757 Primal inf 0.64864855 (1)
+Clp0006I 0  Obj 35.756757 Primal inf 0.027026927 (1)
+Clp0006I 0  Obj 35.756757 Primal inf 0.97297287 (1)
+Clp0006I 0  Obj 35.756757 Primal inf 0.027026927 (1)
+Clp0006I 0  Obj 35.756757 Primal inf 0.97297287 (1)
+Clp0006I 0  Obj 35.756757 Primal inf 0.16216206 (1)
+Clp0006I 0  Obj 35.756757 Primal inf 0.83783774 (1)
+Clp0006I 0  Obj 35.756757 Primal inf 0.16216206 (1)
+Clp0006I 0  Obj 35.756757 Primal inf 0.83783774 (1)
+Clp0006I 0  Obj 35.756757 Primal inf 0.32432422 (1)
+Clp0006I 0  Obj 35.756757 Primal inf 0.67567558 (1)
+Clp0006I 0  Obj 35.756757 Primal inf 0.13513504 (1)
+Clp0006I 0  Obj 35.756757 Primal inf 0.86486476 (1)
+Clp0006I 0  Obj 35.756757 Primal inf 0.2972972 (1)
+Clp0006I 0  Obj 35.756757 Primal inf 0.7027026 (1)
+Clp0006I 0  Obj 35.756757 Primal inf 0.32432422 (1)
+Clp0006I 0  Obj 35.756757 Primal inf 0.67567558 (1)
+Node 21 depth 6 unsatisfied 63 sum 1.23926e+10 obj 35.7568 guess 36.3819 branching on 238
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.7608063e-05
+Clp0006I 0  Obj 35.756588 Primal inf 0.16216206 (1)
+Clp0006I 149  Obj 35.833165
+Clp0000I Optimal - objective value 35.833333
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.833333 Primal inf 0.16666657 (1)
+Clp0006I 25  Obj 35.846154
+Clp0000I Optimal - objective value 35.846154
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.846154 Primal inf 0.23076913 (1)
+Clp0006I 28  Obj 35.925926
+Clp0000I Optimal - objective value 35.925926
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.925926 Primal inf 0.33333323 (1)
+Clp0006I 41  Obj 36.043478
+Clp0001I Primal infeasible - objective value 36.043478
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.925926 Primal inf 0.33333323 (1)
+Clp0006I 41  Obj 36.043478
+Clp0001I Primal infeasible - objective value 36.043478
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.925926 Primal inf 0.66666657 (1)
+Clp0006I 124  Obj 36.75
+Clp0001I Primal infeasible - objective value 36.75
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.8039354e-05
+Clp0006I 0  Obj 35.756572 Primal inf 0.16216206 (1)
+Clp0006I 414  Obj 35.833149 Primal inf 183.43048 (706)
+Clp0006I 458  Obj 35.999817
+Clp0000I Optimal - objective value 36
+Clp0061I Crunch 23103 (-2962) rows, 160 (-229) columns and 1727805 (-640016) elements
+Clp1001I Initial range of elements is 1 to 2
+Clp1004I Not bothering to scale as good enough
+Clp0000I Optimal - objective value 36
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.16666657 (1)
+Clp0006I 0  Obj 36 Primal inf 0.83333323 (1)
+Clp0006I 0  Obj 36 Primal inf 0.3749999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.6249999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.2499999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.7499999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.83333323 (1)
+Clp0006I 0  Obj 36 Primal inf 0.16666657 (1)
+Clp0006I 0  Obj 36 Primal inf 0.16666657 (1)
+Clp0006I 0  Obj 36 Primal inf 0.83333323 (1)
+Node 22 depth 7 unsatisfied 45 sum 1.55241e+10 obj 36 guess 36.1986 branching on 69
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.9492871e-05
+Clp0006I 0  Obj 35.999777 Primal inf 0.4999999 (1)
+Clp0006I 125  Obj 35.999777
+Clp0000I Optimal - objective value 36
+Clp1001I Initial range of elements is 1 to 2
+Clp1004I Not bothering to scale as good enough
+Clp0006I 0  Obj 36 Primal inf 0.031745932 (1)
+Clp0006I 0  Obj 36 Primal inf 0.96825387 (1)
+Clp0006I 0  Obj 36 Primal inf 0.38095228 (1)
+Clp0006I 0  Obj 36 Primal inf 0.61904752 (1)
+Clp0006I 0  Obj 36 Primal inf 0.19047609 (1)
+Clp0006I 0  Obj 36 Primal inf 0.80952371 (1)
+Clp0006I 0  Obj 36 Primal inf 0.49206339 (1)
+Clp0006I 0  Obj 36 Primal inf 0.50793641 (1)
+Clp0006I 0  Obj 36 Primal inf 0.17460307 (1)
+Clp0006I 0  Obj 36 Primal inf 0.82539673 (1)
+Clp0006I 0  Obj 36 Primal inf 0.22222212 (1)
+Clp0006I 0  Obj 36 Primal inf 0.77777768 (1)
+Clp0006I 0  Obj 36 Primal inf 0.50793641 (1)
+Clp0006I 0  Obj 36 Primal inf 0.49206339 (1)
+Node 23 depth 8 unsatisfied 48 sum 1.18743e+09 obj 36 guess 36.1562 branching on 192
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.9492871e-05
+Clp0006I 0  Obj 35.999777 Primal inf 0.4999999 (1)
+Clp0006I 101  Obj 36.333111
+Clp0001I Primal infeasible - objective value 36.333333
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.971269e-05
+Clp0006I 0  Obj 35.999683 Primal inf 0.38095228 (1)
+Clp0000I Optimal - objective value 36
+Clp1001I Initial range of elements is 1 to 2
+Clp1004I Not bothering to scale as good enough
+Clp0006I 0  Obj 36 Primal inf 0.19047609 (1)
+Clp0006I 0  Obj 36 Primal inf 0.80952371 (1)
+Clp0006I 0  Obj 36 Primal inf 0.50793641 (1)
+Clp0006I 0  Obj 36 Primal inf 0.49206339 (1)
+Clp0006I 0  Obj 36 Primal inf 0.49206339 (1)
+Clp0006I 0  Obj 36 Primal inf 0.50793641 (1)
+Clp0006I 0  Obj 36 Primal inf 0.22222212 (1)
+Clp0006I 0  Obj 36 Primal inf 0.77777768 (1)
+Clp0006I 0  Obj 36 Primal inf 0.50793641 (1)
+Clp0006I 0  Obj 36 Primal inf 0.49206339 (1)
+Clp0006I 0  Obj 36 Primal inf 0.17460307 (1)
+Clp0006I 0  Obj 36 Primal inf 0.82539673 (1)
+Node 25 depth 9 unsatisfied 47 sum 3.34278 obj 36 guess 36.081 branching on 64
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.971269e-05
+Clp0006I 0  Obj 35.999683 Primal inf 0.19047609 (1)
+Clp0006I 109  Obj 35.999683
+Clp0000I Optimal - objective value 36
+Clp1001I Initial range of elements is 1 to 2
+Clp1004I Not bothering to scale as good enough
+Clp0006I 0  Obj 36 Primal inf 0.060605961 (1)
+Clp0006I 0  Obj 36 Primal inf 0.93939384 (1)
+Clp0006I 0  Obj 36 Primal inf 0.48484838 (1)
+Clp0006I 0  Obj 36 Primal inf 0.51515142 (1)
+Clp0006I 0  Obj 36 Primal inf 0.51515142 (1)
+Clp0006I 0  Obj 36 Primal inf 0.48484838 (1)
+Clp0006I 0  Obj 36 Primal inf 0.48484838 (1)
+Clp0006I 0  Obj 36 Primal inf 0.51515142 (1)
+Clp0006I 0  Obj 36 Primal inf 0.12121202 (1)
+Clp0006I 0  Obj 36 Primal inf 0.87878778 (1)
+Clp0006I 0  Obj 36 Primal inf 0.48484838 (1)
+Clp0006I 0  Obj 36 Primal inf 0.51515142 (1)
+Node 26 depth 10 unsatisfied 48 sum 2.57379 obj 36 guess 36.0485 branching on 93
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.5777013e-05
+Clp0006I 0  Obj 35.999923 Primal inf 0.12121202 (1)
+Clp0006I 23  Obj 35.999923
+Clp0000I Optimal - objective value 36
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.2499999 (1)
+Clp0006I 70  Obj 36.25
+Clp0001I Primal infeasible - objective value 36.25
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.5777013e-05
+Clp0006I 0  Obj 35.999866 Primal inf 0.2499999 (1)
+Clp0006I 65  Obj 35.999866
+Clp0000I Optimal - objective value 36
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0000I Optimal - objective value 36
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 47  Obj 36.375
+Clp0001I Primal infeasible - objective value 36.375
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 47  Obj 36.375
+Clp0001I Primal infeasible - objective value 36.375
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 61  Obj 37
+Clp0001I Primal infeasible - objective value 37
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.971269e-05
+Clp0006I 0  Obj 35.999683 Primal inf 0.80952371 (1)
+Clp0006I 414  Obj 35.999683 Primal inf 91077.121 (6985)
+Clp0006I 828  Obj 35.999704 Primal inf 283.76463 (722)
+Clp0006I 885  Obj 36.399706
+Clp0001I Primal infeasible - objective value 36.4
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.971269e-05
+Clp0006I 0  Obj 35.999683 Primal inf 0.61904752 (1)
+Clp0006I 257  Obj 36.66635
+Clp0001I Primal infeasible - objective value 36.666667
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 2.0155223e-05 (% 0.0020155223) - largest zero change 2.0028101e-05
+Clp0006I 0  Obj 35.999938 Primal inf 0.060605961 (1)
+Clp0000I Optimal - objective value 36
+Clp1001I Initial range of elements is 1 to 2
+Clp1004I Not bothering to scale as good enough
+Clp0006I 0  Obj 36 Primal inf 0.48484838 (1)
+Clp0006I 0  Obj 36 Primal inf 0.51515142 (1)
+Clp0006I 0  Obj 36 Primal inf 0.51515142 (1)
+Clp0006I 0  Obj 36 Primal inf 0.48484838 (1)
+Clp0006I 0  Obj 36 Primal inf 0.48484838 (1)
+Clp0006I 0  Obj 36 Primal inf 0.51515142 (1)
+Clp0006I 0  Obj 36 Primal inf 0.12121202 (1)
+Clp0006I 0  Obj 36 Primal inf 0.87878778 (1)
+Clp0006I 0  Obj 36 Primal inf 0.48484838 (1)
+Clp0006I 0  Obj 36 Primal inf 0.51515142 (1)
+Clp0006I 0  Obj 36 Primal inf 0.81818172 (1)
+Clp0006I 0  Obj 36 Primal inf 0.18181808 (1)
+Clp0006I 0  Obj 36 Primal inf 0.060605961 (1)
+Clp0006I 0  Obj 36 Primal inf 0.93939384 (1)
+Clp0006I 0  Obj 36 Primal inf 0.51515142 (1)
+Clp0006I 0  Obj 36 Primal inf 0.48484838 (1)
+Clp0006I 0  Obj 36 Primal inf 0.48484838 (1)
+Clp0006I 0  Obj 36 Primal inf 0.51515142 (1)
+Node 29 depth 11 unsatisfied 48 sum 0.554012 obj 36 guess 36.0312 branching on 156
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 2.0155223e-05 (% 0.0020155223) - largest zero change 2.0028101e-05
+Clp0006I 0  Obj 35.999938 Primal inf 0.93939384 (1)
+Clp0006I 414  Obj 35.999938 Primal inf 3481.7827 (2399)
+Clp0006I 693  Obj 36.499949
+Clp0001I Primal infeasible - objective value 36.5
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 1.8563693e-05 (% 0.0018563693) - largest zero change 1.8221754e-05
+Clp0006I 0  Obj 35.999938 Primal inf 0.48484838 (1)
+Clp0006I 60  Obj 35.999938
+Clp0000I Optimal - objective value 36
+Clp1001I Initial range of elements is 1 to 2
+Clp1004I Not bothering to scale as good enough
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Node 31 depth 12 unsatisfied 34 sum 0.28468 obj 36 guess 36.014 branching on 68
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 1.2261205e-05 (% 0.0012261205) - largest zero change 1.2170597e-05
+Clp0006I 0  Obj 35.999969 Primal inf 0.4999999 (1)
+Clp0006I 142  Obj 36.166641
+Clp0001I Primal infeasible - objective value 36.166667
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 1.2261205e-05 (% 0.0012261205) - largest zero change 1.2170597e-05
+Clp0006I 0  Obj 35.999969 Primal inf 0.4999999 (1)
+Clp0006I 128  Obj 35.999974
+Clp0000I Optimal - objective value 36
+Clp1001I Initial range of elements is 1 to 2
+Clp1004I Not bothering to scale as good enough
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Node 33 depth 13 unsatisfied 34 sum 1.5386e+10 obj 36 guess 36.0543 branching on 45
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 1.4750674e-05 (% 0.0014750674) - largest zero change 1.4679999e-05
+Clp0006I 0  Obj 35.99996 Primal inf 0.4999999 (1)
+Clp0006I 253  Obj 35.999982
+Clp0000I Optimal - objective value 36
+Clp1001I Initial range of elements is 1 to 2
+Clp1004I Not bothering to scale as good enough
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 1.2133337e-05 (% 0.0012133337) - largest zero change 1.2114861e-05
+Clp0006I 0  Obj 35.99996 Primal inf 0.4999999 (1)
+Clp0000I Optimal - objective value 36
+Clp1001I Initial range of elements is 1 to 2
+Clp1004I Not bothering to scale as good enough
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 1.6821291e-05 (% 0.0016821291) - largest zero change 1.6805351e-05
+Clp0006I 0  Obj 35.999962 Primal inf 0.4999999 (1)
+Clp0006I 97  Obj 35.999967
+Clp0000I Optimal - objective value 36
+Node 34 depth 14 unsatisfied 32 sum 1.44023e+10 obj 36 guess 36.0451 branching on 42
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 1.9533495e-05 (% 0.0019533495) - largest zero change 1.8774841e-05
+Clp0006I 0  Obj 35.99993 Primal inf 1.9999996 (4)
+Clp0006I 99  Obj 36.666603
+Clp0001I Primal infeasible - objective value 36.666667
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 1.9533495e-05 (% 0.0019533495) - largest zero change 1.8774841e-05
+Clp0006I 0  Obj 35.99993 Primal inf 0.4999999 (1)
+Clp0006I 414  Obj 35.999979 Primal inf 7632.5523 (3798)
+Clp0006I 582  Obj 36.666599
+Clp0001I Primal infeasible - objective value 36.666667
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 1.1743608e-05 (% 0.0011743608) - largest zero change 1.1511005e-05
+Clp0006I 0  Obj 35.999964 Primal inf 0.4999999 (1)
+Clp0000I Optimal - objective value 36
+Clp1001I Initial range of elements is 1 to 2
+Clp1004I Not bothering to scale as good enough
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Node 37 depth 14 unsatisfied 32 sum 0.0208596 obj 36 guess 36.0032 branching on 135
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 1.6457139e-05 (% 0.0016457139) - largest zero change 1.6210894e-05
+Clp0006I 0  Obj 35.999955 Primal inf 0.4999999 (1)
+Clp0006I 30  Obj 35.999955
+Clp0000I Optimal - objective value 36
+Clp1001I Initial range of elements is 1 to 2
+Clp1004I Not bothering to scale as good enough
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0006I 0  Obj 36 Primal inf 0.4999999 (1)
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 1.5835325e-05 (% 0.0015835325) - largest zero change 1.5736457e-05
+Clp0006I 0  Obj 35.999955 Primal inf 0.4999999 (1)
+Clp0006I 122  Obj 36.333297
+Clp0001I Primal infeasible - objective value 36.333333
+Clp1001I Initial range of elements is 1 to 2
+Clp1004I Not bothering to scale as good enough
+Node 38 depth 15 unsatisfied 30 sum 0.0145015 obj 36.4 guess 36.4029 branching on 82
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 1.5835325e-05 (% 0.0015835325) - largest zero change 1.5736457e-05
+Clp0006I 0  Obj 35.999956 Primal inf 0.4999999 (1)
+Clp0006I 180  Obj 36.333293
+Clp0001I Primal infeasible - objective value 36.333333
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 1.6439056e-05 (% 0.0016439056) - largest zero change 1.5921409e-05
+Clp0006I 0  Obj 35.999953 Primal inf 0.51515142 (1)
+Clp0006I 106  Obj 36.16662
+Clp0001I Primal infeasible - objective value 36.166667
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.8798404e-05
+Clp0006I 0  Obj 35.756599 Primal inf 0.83783774 (1)
+Clp0006I 414  Obj 35.908936 Primal inf 52453.08 (5616)
+Clp0006I 828  Obj 36.428511 Primal inf 2625.4284 (1885)
+Clp0001I Primal infeasible - objective value 36.428511
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 1.7721837e-05 (% 0.0017721837) - largest zero change 1.6931443e-05
+Clp0006I 0  Obj 35.45 Primal inf 0.7499999 (1)
+Clp0006I 414  Obj 35.450001 Primal inf 100507.13 (7287)
+Clp0006I 794  Obj 35.450019 Primal inf 9126.6792 (4285)
+Clp0006I 1147  Obj 35.571473 Primal inf 1357.857 (1661)
+Clp0006I 1417  Obj 35.666725
+Clp0000I Optimal - objective value 35.666667
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.5039353e-05
+Clp0006I 0  Obj 35.666602 Primal inf 0.16666657 (1)
+Clp0000I Optimal - objective value 35.666667
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.666667 Primal inf 0.16666657 (1)
+Clp0006I 275  Obj 35.731707
+Clp0000I Optimal - objective value 35.731707
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.731707 Primal inf 0.12195112 (1)
+Clp0006I 40  Obj 35.789474
+Clp0000I Optimal - objective value 35.789474
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.789474 Primal inf 0.13157885 (1)
+Clp0006I 29  Obj 35.857143
+Clp0000I Optimal - objective value 35.857143
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.857143 Primal inf 0.14285704 (1)
+Clp0006I 22  Obj 35.9375
+Clp0000I Optimal - objective value 35.9375
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.9375 Primal inf 0.3124999 (1)
+Clp0006I 101  Obj 36.15625
+Clp0001I Primal infeasible - objective value 36.15625
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.9375 Primal inf 0.3124999 (1)
+Clp0006I 112  Obj 36.15625
+Clp0001I Primal infeasible - objective value 36.15625
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.9375 Primal inf 0.6874999 (1)
+Clp0006I 344  Obj 37.000001 Primal inf 386.99996 (368)
+Clp0001I Primal infeasible - objective value 37.000001
+Clp0061I Crunch 23374 (-2692) rows, 187 (-202) columns and 2024032 (-343793) elements
+Clp1001I Initial range of elements is 1 to 2
+Clp1004I Not bothering to scale as good enough
+Clp0000I Optimal - objective value 35.666667
+Clp0006I 0  Obj 35.666667 Primal inf 0.33333323 (1)
+Clp0006I 0  Obj 35.666667 Primal inf 0.66666657 (1)
+Clp0006I 0  Obj 35.666667 Primal inf 0.66666657 (1)
+Clp0006I 0  Obj 35.666667 Primal inf 0.33333323 (1)
+Clp0006I 0  Obj 35.666667 Primal inf 0.16666657 (1)
+Clp0006I 0  Obj 35.666667 Primal inf 0.83333323 (1)
+Clp0006I 0  Obj 35.666667 Primal inf 0.16666657 (1)
+Clp0006I 0  Obj 35.666667 Primal inf 0.83333323 (1)
+Clp0006I 0  Obj 35.666667 Primal inf 0.16666657 (1)
+Clp0006I 0  Obj 35.666667 Primal inf 0.83333323 (1)
+Clp0006I 0  Obj 35.666667 Primal inf 0.16666657 (1)
+Clp0006I 0  Obj 35.666667 Primal inf 0.83333323 (1)
+Node 42 depth 5 unsatisfied 63 sum 1.49525e+10 obj 35.6667 guess 36.1633 branching on 68
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 9.297705e-05
+Clp0006I 0  Obj 35.666584 Primal inf 0.16666657 (1)
+Clp0006I 28  Obj 35.666584
+Clp0000I Optimal - objective value 35.666667
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.666667 Primal inf 0.16666657 (1)
+Clp0006I 306  Obj 35.731707
+Clp0000I Optimal - objective value 35.731707
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.731707 Primal inf 0.12195112 (1)
+Clp0006I 29  Obj 35.789474
+Clp0000I Optimal - objective value 35.789474
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.789474 Primal inf 0.14473674 (1)
+Clp0000I Optimal - objective value 35.789474
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.789474 Primal inf 0.26315779 (1)
+Clp0006I 42  Obj 35.9375
+Clp0000I Optimal - objective value 35.9375
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 0
+Clp0006I 0  Obj 35.9375 Primal inf 0.1562499 (1)
+Clp0001I Primal infeasible - objective value 36.034483
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 8.0699084e-05
+Clp0006I 0  Obj 35.9375 Primal inf 0.1562499 (1)
+Clp0001I Primal infeasible - objective value 36.034483
+Clp0014I Perturbing problem by 0.001 % of 1 - largest nonzero change 0 (% 0) - largest zero change 8.0699084e-05
+Clp0006I 0  Obj 35.9375 Primal inf 0.8437499 (1)
+Clp0006I 170  Obj 36.272793
+Clp0001I Primal infeasible - objective value 36.272727
+Coin0506I Presolve 3268 (-22796) rows, 80 (-309) columns and 51851 (-2315965) elements
+Cgl0009I 1 elements changed
+Cgl0004I processed model has 3268 rows, 80 columns (80 integer (80 of which binary)) and 51851 elements
+Cbc0045I Heuristic rounding took 1e-06 seconds (no good)
+Cbc0046I Root node pass 1, 3268 rows, 0 total tight cuts  -  objective 35.262295
+Cbc0046I Root node pass 2, 3269 rows, 1 total tight cuts  -  objective 35.714286
+Cbc0046I Root node pass 3, 3270 rows, 2 total tight cuts  -  objective 36
+Cbc0031I 2 added rows had average density of 2
+Cbc0013I At root node, 2 cuts changed objective from 35.262295 to 36 in 3 passes
+Cbc0014I Cut generator 0 (Probing) - 3 row cuts average 2.0 elements, 4 column cuts (4 active)
+Node 0 depth 0 unsatisfied 28 sum 5.84e+13 obj 36.5385 guess 45.5385 branching on 73
+Cbc0001I Search completed - best objective 1e+50, took 57 iterations and 0 nodes (1134.85 seconds)
+Cbc0032I Strong branching done 10 times (82 iterations), fathomed 1 nodes and fixed 0 variables
+Cbc0035I Maximum depth 0, 6 variables fixed on reduced cost
+Cgl0004I processed model has 10778 rows, 309 columns (309 integer (309 of which binary)) and 476584 elements
+Cbc0038I Full problem 26083 rows 389 columns, reduced to 10759 rows 309 columns
+Cbc0044I Reduced cost fixing - 10759 rows, 309 columns - restarting search
+Cbc0028I Starting sub-tree for Reduce - maximum nodes 2147483647
+Cbc0045I Heuristic Previous solution took 3e-06 seconds (good)
+Cbc0012I Integer solution of 37 found by Previous solution after 0 iterations and 0 nodes (1261.12 seconds)
+Cbc0045I Heuristic feasibility pump took 2e-06 seconds (no good)
+Cbc0045I Heuristic rounding took 1e-06 seconds (no good)
+Cbc0045I Heuristic greedy cover took 0 seconds (no good)
+Cbc0045I Heuristic greedy equality took 1e-06 seconds (no good)
+Cbc0045I Heuristic DiveCoefficient took 2.61116 seconds (no good)
+Cbc0038I Full problem 10759 rows 309 columns, reduced to 8788 rows 148 columns - 15 fixed gives 2214, 133 - ok now
+Infeasible on initial solve
+Cbc0045I Heuristic RINS took 1.05362 seconds (no good)
+Cbc0046I Root node pass 1, 10759 rows, 0 total tight cuts  -  objective 33.210989
+Cbc0046I Root node pass 2, 10784 rows, 25 total tight cuts  -  objective 34.30967
+Cbc0046I Root node pass 3, 10782 rows, 23 total tight cuts  -  objective 34.324798
+Cbc0046I Root node pass 4, 10784 rows, 25 total tight cuts  -  objective 34.335781
+Cbc0046I Root node pass 5, 10783 rows, 24 total tight cuts  -  objective 34.342495
+Cbc0046I Root node pass 6, 10781 rows, 22 total tight cuts  -  objective 34.345745
+Cbc0046I Root node pass 7, 10780 rows, 21 total tight cuts  -  objective 34.347213
+Cbc0046I Root node pass 8, 10782 rows, 23 total tight cuts  -  objective 34.347792
+Cbc0046I Root node pass 9, 10782 rows, 23 total tight cuts  -  objective 34.348108
+Cbc0046I Root node pass 10, 10782 rows, 23 total tight cuts  -  objective 34.348593
+Cbc0046I Root node pass 11, 10780 rows, 21 total tight cuts  -  objective 34.348767
+Cbc0046I Root node pass 12, 10780 rows, 21 total tight cuts  -  objective 34.350835
+Cbc0046I Root node pass 13, 10782 rows, 23 total tight cuts  -  objective 34.353936
+Cbc0046I Root node pass 14, 10782 rows, 23 total tight cuts  -  objective 34.356509
+Cbc0046I Root node pass 15, 10780 rows, 21 total tight cuts  -  objective 34.357488
+Cbc0046I Root node pass 16, 10776 rows, 17 total tight cuts  -  objective 34.358582
+Cbc0046I Root node pass 17, 10780 rows, 21 total tight cuts  -  objective 34.360524
+Cbc0046I Root node pass 18, 10782 rows, 23 total tight cuts  -  objective 34.362146
+Cbc0046I Root node pass 19, 10780 rows, 21 total tight cuts  -  objective 34.363694
+Cbc0046I Root node pass 20, 10783 rows, 24 total tight cuts  -  objective 34.365218
+Cbc0046I Root node pass 21, 10786 rows, 27 total tight cuts  -  objective 34.365813
+Cbc0046I Root node pass 22, 10777 rows, 18 total tight cuts  -  objective 34.366263
+Cbc0046I Root node pass 23, 10779 rows, 20 total tight cuts  -  objective 34.367203
+Cbc0046I Root node pass 24, 10782 rows, 23 total tight cuts  -  objective 34.367621
+Cbc0046I Root node pass 25, 10779 rows, 20 total tight cuts  -  objective 34.368741
+Cbc0046I Root node pass 26, 10781 rows, 22 total tight cuts  -  objective 34.369613
+Cbc0046I Root node pass 27, 10781 rows, 22 total tight cuts  -  objective 34.370182
+Cbc0046I Root node pass 28, 10786 rows, 27 total tight cuts  -  objective 34.370483
+Cbc0046I Root node pass 29, 10784 rows, 25 total tight cuts  -  objective 34.370789
+Cbc0046I Root node pass 30, 10778 rows, 19 total tight cuts  -  objective 34.371794
+Cbc0046I Root node pass 31, 10781 rows, 22 total tight cuts  -  objective 34.372215
+Cbc0046I Root node pass 32, 10787 rows, 28 total tight cuts  -  objective 34.372445
+Cbc0046I Root node pass 33, 10783 rows, 24 total tight cuts  -  objective 34.37257
+Cbc0046I Root node pass 34, 10785 rows, 26 total tight cuts  -  objective 34.372657
+Cbc0046I Root node pass 35, 10785 rows, 26 total tight cuts  -  objective 34.372758
+Cbc0046I Root node pass 36, 10783 rows, 24 total tight cuts  -  objective 34.372858
+Cbc0046I Root node pass 37, 10782 rows, 23 total tight cuts  -  objective 34.372931
+Cbc0046I Root node pass 38, 10780 rows, 21 total tight cuts  -  objective 34.373022
+Cbc0046I Root node pass 39, 10779 rows, 20 total tight cuts  -  objective 34.373228
+Cbc0046I Root node pass 40, 10783 rows, 24 total tight cuts  -  objective 34.373543
+Cbc0046I Root node pass 41, 10783 rows, 24 total tight cuts  -  objective 34.373865
+Cbc0046I Root node pass 42, 10783 rows, 24 total tight cuts  -  objective 34.374564
+Cbc0046I Root node pass 43, 10784 rows, 25 total tight cuts  -  objective 34.374857
+Cbc0046I Root node pass 44, 10782 rows, 23 total tight cuts  -  objective 34.37501
+Cbc0046I Root node pass 45, 10782 rows, 23 total tight cuts  -  objective 34.375154
+Cbc0046I Root node pass 46, 10789 rows, 30 total tight cuts  -  objective 34.375206
+Cbc0046I Root node pass 47, 10785 rows, 26 total tight cuts  -  objective 34.375227
+Cbc0046I Root node pass 48, 10783 rows, 24 total tight cuts  -  objective 34.375239
+Cbc0046I Root node pass 49, 10785 rows, 26 total tight cuts  -  objective 34.375252
+Cbc0046I Root node pass 50, 10787 rows, 28 total tight cuts  -  objective 34.375265
+Cbc0046I Root node pass 51, 10781 rows, 22 total tight cuts  -  objective 34.375375
+Cbc0046I Root node pass 52, 10783 rows, 24 total tight cuts  -  objective 34.375482
+Cbc0046I Root node pass 53, 10787 rows, 28 total tight cuts  -  objective 34.375612
+Cbc0046I Root node pass 54, 10783 rows, 24 total tight cuts  -  objective 34.375687
+Cbc0046I Root node pass 55, 10783 rows, 24 total tight cuts  -  objective 34.375713
+Cbc0046I Root node pass 56, 10781 rows, 22 total tight cuts  -  objective 34.37574
+Cbc0046I Root node pass 57, 10782 rows, 23 total tight cuts  -  objective 34.375762
+Cbc0046I Root node pass 58, 10786 rows, 27 total tight cuts  -  objective 34.375768
+Cbc0046I Root node pass 59, 10788 rows, 29 total tight cuts  -  objective 34.37578
+Cbc0046I Root node pass 60, 10786 rows, 27 total tight cuts  -  objective 34.3758
+Cbc0046I Root node pass 61, 10786 rows, 27 total tight cuts  -  objective 34.375812
+Cbc0046I Root node pass 62, 10784 rows, 25 total tight cuts  -  objective 34.375834
+Cbc0046I Root node pass 63, 10785 rows, 26 total tight cuts  -  objective 34.375848
+Cbc0046I Root node pass 64, 10788 rows, 29 total tight cuts  -  objective 34.375853
+Cbc0046I Root node pass 65, 10785 rows, 26 total tight cuts  -  objective 34.37587
+Cbc0046I Root node pass 66, 10783 rows, 24 total tight cuts  -  objective 34.375889
+Cbc0046I Root node pass 67, 10785 rows, 26 total tight cuts  -  objective 34.375919
+Cbc0046I Root node pass 68, 10786 rows, 27 total tight cuts  -  objective 34.375968
+Cbc0046I Root node pass 69, 10791 rows, 32 total tight cuts  -  objective 34.376001
+Cbc0046I Root node pass 70, 10788 rows, 29 total tight cuts  -  objective 34.376029
+Cbc0046I Root node pass 71, 10785 rows, 26 total tight cuts  -  objective 34.376052
+Cbc0046I Root node pass 72, 10787 rows, 28 total tight cuts  -  objective 34.37606
+Cbc0046I Root node pass 73, 10785 rows, 26 total tight cuts  -  objective 34.376074
+Cbc0046I Root node pass 74, 10787 rows, 28 total tight cuts  -  objective 34.376086
+Cbc0046I Root node pass 75, 10787 rows, 28 total tight cuts  -  objective 34.37611
+Cbc0046I Root node pass 76, 10787 rows, 28 total tight cuts  -  objective 34.37612
+Cbc0046I Root node pass 77, 10787 rows, 28 total tight cuts  -  objective 34.376139
+Cbc0046I Root node pass 78, 10786 rows, 27 total tight cuts  -  objective 34.376157
+Cbc0046I Root node pass 79, 10784 rows, 25 total tight cuts  -  objective 34.376171
+Cbc0046I Root node pass 80, 10783 rows, 24 total tight cuts  -  objective 34.376192
+Cbc0046I Root node pass 81, 10786 rows, 27 total tight cuts  -  objective 34.376207
+Cbc0046I Root node pass 82, 10786 rows, 27 total tight cuts  -  objective 34.376215
+Cbc0046I Root node pass 83, 10787 rows, 28 total tight cuts  -  objective 34.376231
+Cbc0046I Root node pass 84, 10788 rows, 29 total tight cuts  -  objective 34.376236
+Cbc0046I Root node pass 85, 10789 rows, 30 total tight cuts  -  objective 34.376239
+Cbc0046I Root node pass 86, 10791 rows, 32 total tight cuts  -  objective 34.37624
+Cbc0046I Root node pass 87, 10792 rows, 33 total tight cuts  -  objective 34.376241
+Cbc0046I Root node pass 88, 10793 rows, 34 total tight cuts  -  objective 34.376242
+Cbc0046I Root node pass 89, 10791 rows, 32 total tight cuts  -  objective 34.376243
+Cbc0046I Root node pass 90, 10792 rows, 33 total tight cuts  -  objective 34.376244
+Cbc0046I Root node pass 91, 10793 rows, 34 total tight cuts  -  objective 34.376245
+Cbc0046I Root node pass 92, 10792 rows, 33 total tight cuts  -  objective 34.376251
+Cbc0046I Root node pass 93, 10793 rows, 34 total tight cuts  -  objective 34.376255
+Cbc0046I Root node pass 94, 10792 rows, 33 total tight cuts  -  objective 34.376258
+Cbc0046I Root node pass 95, 10792 rows, 33 total tight cuts  -  objective 34.376259
+Cbc0046I Root node pass 96, 10787 rows, 28 total tight cuts  -  objective 34.376271
+Cbc0046I Root node pass 97, 10789 rows, 30 total tight cuts  -  objective 34.376277
+Cbc0046I Root node pass 98, 10788 rows, 29 total tight cuts  -  objective 34.37628
+Cbc0046I Root node pass 99, 10788 rows, 29 total tight cuts  -  objective 34.376282
+Cbc0046I Root node pass 100, 10789 rows, 30 total tight cuts  -  objective 34.376283
+Cbc0031I 29 added rows had average density of 157.27586
+Cbc0013I At root node, 29 cuts changed objective from 33.210989 to 34.376285 in 100 passes
+Cbc0014I Cut generator 0 (Probing) - 1431 row cuts average 6.2 elements, 0 column cuts (0 active)  in 1.997 seconds - new frequency is 1
+Cbc0014I Cut generator 1 (Gomory) - 3252 row cuts average 224.3 elements, 0 column cuts (0 active)  in 5.886 seconds - new frequency is 1
+Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.234 seconds - new frequency is -100
+Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.094 seconds - new frequency is -100
+Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 18.721 seconds - new frequency is -100
+Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.377 seconds - new frequency is -100
+Cbc0014I Cut generator 6 (TwoMirCuts) - 808 row cuts average 208.6 elements, 0 column cuts (0 active)  in 1.927 seconds - new frequency is 1
+Cbc0014I Cut generator 8 (Stored from first) - 80 row cuts average 61.4 elements, 0 column cuts (0 active)
+Node 0 depth 0 unsatisfied 138 sum 2.03262e+14 obj 34.3763 guess 62.6904 branching on 169
+Cbc0010I After 0 nodes, 1 on tree, 37 best solution, best possible 34.376285 (1393.66 seconds)
+Node 1 depth 1 unsatisfied 34 sum 4.2851e+14 obj 36 guess 36.0008 branching on 89
+Node 2 depth 2 unsatisfied 38 sum 3.42808e+14 obj 36 guess 36.7307 branching on 112
+Node 3 depth 3 unsatisfied 48 sum 4.14227e+14 obj 36 guess 36.3039 branching on 90
+Node 4 depth 4 unsatisfied 34 sum 1.71404e+14 obj 36 guess 36.1567 branching on 22
+Node 5 depth 5 unsatisfied 24 sum 4.2851e+13 obj 36 guess 36.0366 branching on 19
+Node 6 depth 6 unsatisfied 26 sum 2.85674e+13 obj 36 guess 36.0231 branching on 183
+Node 7 depth 7 unsatisfied 22 sum 31424.1 obj 36 guess 36 branching on 108
+Node 8 depth 8 unsatisfied 22 sum 1.42837e+13 obj 36 guess 36.0112 branching on 138
+Node 9 depth 8 unsatisfied 34 sum 2.85674e+13 obj 36 guess 36.0122 branching on 155
+Node 10 depth 9 unsatisfied 20 sum 28567.4 obj 36 guess 36 branching on 82
+Node 11 depth 10 unsatisfied 25 sum 35709.2 obj 37 guess 37 branching on 203
+Node 12 depth 10 unsatisfied 22 sum 31424.1 obj 36 guess 36 branching on 203
+Node 13 depth 9 unsatisfied 20 sum 28567.4 obj 36 guess 36 branching on 82
+Node 14 depth 10 unsatisfied 25 sum 35709.2 obj 36 guess 36 branching on 79
+Node 15 depth 10 unsatisfied 20 sum 24286.5 obj 36 guess 36 branching on 182
+Node 16 depth 11 unsatisfied 22 sum 2.85674e+13 obj 36 guess 36.0213 branching on 202
+Node 17 depth 11 unsatisfied 26 sum 1.42837e+13 obj 36 guess 36.0069 branching on 202
+Node 24 depth 7 unsatisfied 28 sum 35713.5 obj 36 guess 36 branching on 182
+Node 29 depth 9 unsatisfied 34 sum 1.42837e+13 obj 36 guess 36.0045 branching on 174
+Node 30 depth 9 unsatisfied 18 sum 20002.9 obj 36 guess 36 branching on 174
+Node 31 depth 10 unsatisfied 22 sum 25716.3 obj 36 guess 36 branching on 165
+Node 35 depth 10 unsatisfied 22 sum 25716.3 obj 36 guess 36 branching on 165
+Node 38 depth 10 unsatisfied 18 sum 20002.9 obj 36 guess 36 branching on 165
+Node 41 depth 6 unsatisfied 39 sum 48571.7 obj 36 guess 36 branching on 165
+Coin0506I Presolve 1047 (-9712) rows, 53 (-256) columns and 9006 (-465890) elements
+Cgl0004I processed model has 1047 rows, 53 columns (53 integer (53 of which binary)) and 9006 elements
+Cbc0045I Heuristic rounding took 1e-06 seconds (no good)
+Cbc0046I Root node pass 1, 1047 rows, 0 total tight cuts  -  objective 35.764706
+Cbc0006I The LP relaxation is infeasible or too expensive
+Cbc0013I At root node, 0 cuts changed objective from 35.764706 to 37.5 in 1 passes
+Cbc0014I Cut generator 0 (Probing) - 2 row cuts average 2.0 elements, 2 column cuts (2 active)
+Cbc0014I Cut generator 1 (Gomory) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)
+Cbc0001I Search completed - best objective 1e+50, took 0 iterations and 0 nodes (1471.72 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cbc0029I Ending sub-tree for CbcHeuristicRINS
+Cbc0010I After 50 nodes, 4 on tree, 37 best solution, best possible 34.376285 (1478.33 seconds)
+Cbc0010I After 100 nodes, 3 on tree, 37 best solution, best possible 34.56395 (1608.96 seconds)
+
+###############################################################
+ Elloumi 
+###############################################################
+
+Y 
+200-element Named Array{Float64,1}
+A   │ 
+────┼────
+1   │ 1.0
+2   │ 1.0
+3   │ 0.0
+4   │ 0.0
+5   │ 0.0
+6   │ 1.0
+7   │ 0.0
+8   │ 0.0
+9   │ 1.0
+⋮       ⋮
+192 │ 1.0
+193 │ 0.0
+194 │ 0.0
+195 │ 0.0
+196 │ 0.0
+197 │ 0.0
+198 │ 0.0
+199 │ 0.0
+200 │ 1.0
+
+uk: 1 dimensions:
+[  2] = 1.0
+[  3] = 1.0
+[  4] = 1.0
+[  5] = 1.0
+[  6] = 1.0
+[  7] = 1.0
+[  8] = 1.0
+[  9] = 1.0
+[ 10] = 1.0
+[ 11] = 1.0
+[ 12] = 1.0
+[ 13] = 1.0
+[ 14] = 1.0
+[ 15] = 1.0
+[ 16] = 1.0
+[ 17] = 1.0
+[ 18] = 1.0
+[ 19] = 1.0
+[ 20] = 1.0
+[ 21] = 1.0
+[ 22] = 1.0
+[ 23] = 1.0
+[ 24] = 1.0
+[ 25] = 1.0
+[ 26] = 1.0
+[ 27] = 1.0
+[ 28] = 1.0
+[ 29] = 1.0
+[ 30] = 1.0
+[ 31] = 1.0
+[ 32] = 1.0
+[ 33] = 1.0
+[ 34] = 1.0
+[ 35] = 1.0
+[ 36] = 1.0
+[ 37] = 1.0
+[ 38] = 1.0
+[ 39] = 0.0
+[ 40] = 0.0
+[ 41] = 0.0
+[ 42] = 0.0
+[ 43] = 0.0
+[ 44] = 0.0
+[ 45] = 0.0
+[ 46] = 0.0
+[ 47] = 0.0
+[ 48] = 0.0
+[ 49] = 0.0
+[ 50] = 0.0
+[ 51] = 0.0
+[ 52] = 0.0
+[ 53] = 0.0
+[ 54] = 0.0
+[ 55] = 0.0
+[ 56] = 0.0
+[ 57] = 0.0
+[ 58] = 0.0
+[ 59] = 0.0
+[ 60] = 0.0
+[ 61] = 0.0
+[ 62] = 0.0
+[ 63] = 0.0
+[ 64] = 0.0
+[ 65] = 0.0
+[ 66] = 0.0
+[ 67] = 0.0
+[ 68] = 0.0
+[ 69] = 0.0
+[ 70] = 0.0
+[ 71] = 0.0
+[ 72] = 0.0
+[ 73] = 0.0
+[ 74] = 0.0
+[ 75] = 0.0
+[ 76] = 0.0
+[ 77] = 0.0
+[ 78] = 0.0
+[ 79] = 0.0
+[ 80] = 0.0
+[ 81] = 0.0
+[ 82] = 0.0
+[ 83] = 0.0
+[ 84] = 0.0
+[ 85] = 0.0
+[ 86] = 0.0
+[ 87] = 0.0
+[ 88] = 0.0
+[ 89] = 0.0
+[ 90] = 0.0
+[ 91] = 0.0
+[ 92] = 0.0
+[ 93] = 0.0
+[ 94] = 0.0
+[ 95] = 0.0
+[ 96] = 0.0
+[ 97] = 0.0
+[ 98] = 0.0
+[ 99] = 0.0
+[100] = 0.0
+[101] = 0.0
+[102] = 0.0
+[103] = 0.0
+[104] = 0.0
+[105] = 0.0
+[106] = 0.0
+[107] = 0.0
+[108] = 0.0
+[109] = 0.0
+[110] = 0.0
+[111] = 0.0
+[112] = 0.0
+[113] = 0.0
+[114] = 0.0
+[115] = 0.0
+[116] = 0.0
+[117] = 0.0
+[118] = 0.0
+[119] = 0.0
+[120] = 0.0
+[121] = 0.0
+[122] = 0.0
+[123] = 0.0
+[124] = 0.0
+[125] = 0.0
+[126] = 0.0
+[127] = 0.0
+[128] = 0.0
+[129] = 0.0
+[130] = 0.0
+[131] = 0.0
+[132] = 0.0
+[133] = 0.0
+[134] = 0.0
+[135] = 0.0
+[136] = 0.0
+[137] = 0.0
+[138] = 0.0
+[139] = 0.0
+[140] = 0.0
+[141] = 0.0
+[142] = 0.0
+[143] = 0.0
+[144] = 0.0
+[145] = 0.0
+[146] = 0.0
+[147] = 0.0
+[148] = 0.0
+[149] = 0.0
+[150] = 0.0
+[151] = 0.0
+[152] = 0.0
+[153] = 0.0
+[154] = 0.0
+[155] = 0.0
+[156] = 0.0
+[157] = 0.0
+[158] = 0.0
+[159] = 0.0
+[160] = 0.0
+[161] = 0.0
+[162] = 0.0
+[163] = 0.0
+[164] = 0.0
+[165] = 0.0
+[166] = 0.0
+[167] = 0.0
+[168] = 0.0
+[169] = 0.0
+[170] = 0.0
+[171] = 0.0
+[172] = 0.0
+[173] = 0.0
+[174] = 0.0
+[175] = 0.0
+[176] = 0.0
+[177] = 0.0
+[178] = 0.0
+[179] = 0.0
+[180] = 0.0
+[181] = 0.0
+[182] = 0.0
+[183] = 0.0
+[184] = 0.0
+[185] = 0.0
+[186] = 0.0
+[187] = 0.0
+[188] = 0.0
+[189] = 0.0
+[190] = 0.0
+
+Optimal !
+Objective function value is 37.0
+Selected nodes: 1, 2, 6, 9, 11, 20, 24, 29, 32, 36, 41, 46, 48, 50, 55, 58, 60, 62, 65, 68, 88, 90, 98, 100, 101, 119, 124, 129, 136, 152, 156, 157, 166, 169, 172, 176, 181, 189, 192, 200
+Cbc0030I Thread 0 used 116 times,  waiting to start 0.0052995682, 241.91402 cpu time, 633 locks, 0.13294244 locked, 0.00026249886 waiting for locks
+Cbc0030I Main thread 241.80054 waiting for threads,  238 locks, 6.7234039e-05 locked, 1.0490417e-05 waiting for locks
+Cbc0001I Search completed - best objective 37, took 122888 iterations and 116 nodes (1635.62 seconds)
+Cbc0032I Strong branching done 922 times (79472 iterations), fathomed 2 nodes and fixed 1 variables
+Cbc0035I Maximum depth 11, 484 variables fixed on reduced cost
+Cbc0038I Probing was tried 293 times and created 3726 cuts of which 0 were active after adding rounds of cuts (5.622 seconds)
+Cbc0038I Gomory was tried 261 times and created 6515 cuts of which 0 were active after adding rounds of cuts (13.518 seconds)
+Cbc0038I Knapsack was tried 200 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.469 seconds)
+Cbc0038I Clique was tried 200 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.189 seconds)
+Cbc0038I MixedIntegerRounding2 was tried 200 times and created 0 cuts of which 0 were active after adding rounds of cuts (37.442 seconds)
+Cbc0038I FlowCover was tried 200 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.753 seconds)
+Cbc0038I TwoMirCuts was tried 289 times and created 2383 cuts of which 0 were active after adding rounds of cuts (5.716 seconds)
+Cbc0038I Stored from first was tried 289 times and created 192 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Cbc0029I Ending sub-tree for Reduce
+Cbc0030I Thread 0 used 50 times,  waiting to start 395.03364, 763.95611 cpu time, 258 locks, 0.2743299 locked, 0.0001103878 waiting for locks
+Cbc0030I Main thread 778.30469 waiting for threads,  106 locks, 0.0002758503 locked, 8.1062317e-06 waiting for locks
+Cbc0001I Search completed - best objective 37, took 168301 iterations and 166 nodes (1636.91 seconds)
+Cbc0032I Strong branching done 534 times (43137 iterations), fathomed 1 nodes and fixed 1 variables
+Cbc0035I Maximum depth 14, 192 variables fixed on reduced cost
+Total time (CPU seconds):       1660.15   (Wallclock seconds):       1687.42
+
