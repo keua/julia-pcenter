@@ -28,7 +28,7 @@ for ((i=1;i<3;i++))
             id=$filename$k
             filename="instance"$filename$k".dat"
             echo "Running file: "$filename
-            $JULIA_HOME/julia ../pcenter_solver.jl -f="$INST_HOME/$filename" -m=$method -l=1 | tee logs/$method"-"$id.log
+            $JULIA_HOME/julia pcentersolver.jl -f="$INST_HOME/$filename" -m=$method -l=1 | tee logs/$method"-"$id.log
         }
     }
 }
