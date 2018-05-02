@@ -3,8 +3,8 @@
  General Information 
 ###############################################################
 
-Formulation: ELLOUMI, loglevel: 1 , ratio: 0, 
-timeout: 7200.0, threads: 1 
+Formulation: ELLOUMI, loglevel: 2 , ratio: 0, 
+timeout: 9600.0, threads: 1 
 
 Problem parameters: 
  n = 200 
@@ -48,61 +48,219 @@ Cgl0003I 0 fixed, 0 tightened bounds, 5342 strengthened rows, 0 substitutions
 Cgl0004I processed model has 27933 rows, 404 columns (404 integer (404 of which binary)) and 2560567 elements
 Cutoff increment increased from 1e-05 to 0.9999
 Cbc0038I Initial state - 180 integers unsatisfied sum - 27.9923
-Cbc0038I Pass   1: (67.93 seconds) suminf.   13.59615 (65) obj. 50.4038 iterations 607
-Cbc0038I Pass   2: (69.32 seconds) suminf.    8.63448 (39) obj. 51.7655 iterations 308
-Cbc0038I Pass   3: (70.14 seconds) suminf.    6.88060 (51) obj. 52.597 iterations 178
-Cbc0038I Pass   4: (72.33 seconds) suminf.    0.00000 (0) obj. 56 iterations 511
+Cbc0038I Pass   1: (68.45 seconds) suminf.   13.59615 (65) obj. 50.4038 iterations 607
+Cbc0038I Pass   2: (69.81 seconds) suminf.    8.63448 (39) obj. 51.7655 iterations 308
+Cbc0038I Pass   3: (70.64 seconds) suminf.    6.88060 (51) obj. 52.597 iterations 178
+Cbc0038I Pass   4: (72.82 seconds) suminf.    0.00000 (0) obj. 56 iterations 511
 Cbc0038I Solution found of 56
 Cbc0038I Before mini branch and bound, 215 integers at bound fixed and 0 continuous
 Cbc0038I Full problem 27933 rows 404 columns, reduced to 17281 rows 189 columns - 15 fixed gives 7371, 174 - ok now
+Cgl0009I 9 elements changed
+Cgl0004I processed model has 7371 rows, 174 columns (174 integer (174 of which binary)) and 201257 elements
 Cbc0038I Full problem 27933 rows 404 columns, reduced to 7371 rows 174 columns
-Cbc0038I Mini branch and bound did not improve solution (106.70 seconds)
+Cbc0028I Starting sub-tree for CbcHeuristicLocalAfterFPump - maximum nodes 200
+Cbc0045I Heuristic feasibility pump took 1e-06 seconds (no good)
+Cbc0045I Heuristic rounding took 1e-06 seconds (no good)
+Cbc0046I Root node pass 1, 7371 rows, 0 total tight cuts  -  objective 52.373913
+Cbc0013I At root node, 0 cuts changed objective from 52.373913 to 52.373913 in 1 passes
+Cbc0014I Cut generator 0 (Probing) - 0 row cuts average 0.0 elements, 11 column cuts (11 active)
+Node 0 depth 0 unsatisfied 59 sum 4.41887e+14 obj 52.3739 guess 63.513 branching on 163
+Cbc0010I After 0 nodes, 1 on tree, 1e+50 best solution, best possible 52.373913 (87.48 seconds)
+Node 1 depth 1 unsatisfied 50 sum 3.58821e+13 obj 52.3831 guess 53.8051 branching on 161
+Node 2 depth 2 unsatisfied 47 sum 2.88724e+13 obj 52.3878 guess 53.5652 branching on 29
+Node 3 depth 3 unsatisfied 45 sum 1.83952e+13 obj 52.3889 guess 53.5432 branching on 119
+Node 4 depth 4 unsatisfied 44 sum 1.31965e+13 obj 52.4545 guess 53.8711 branching on 154
+Node 6 depth 5 unsatisfied 45 sum 1.00971e+13 obj 53.1538 guess 54.5592 branching on 153
+Node 8 depth 6 unsatisfied 41 sum 3.80565e+12 obj 53.8182 guess 54.8609 branching on 108
+Node 9 depth 7 unsatisfied 43 sum 3.03172e+12 obj 54.1552 guess 55.1091 branching on 94
+Node 10 depth 7 unsatisfied 32 sum 2.80999e+12 obj 54.7667 guess 55.632 branching on 94
+Node 11 depth 8 unsatisfied 33 sum 1.1829e+12 obj 54.8571 guess 55.6739 branching on 89
+Node 12 depth 8 unsatisfied 21 sum 1.57812 obj 55.5 guess 56.2665 branching on 55
+Node 13 depth 9 unsatisfied 14 sum 1.1828 obj 56 guess 56.556 branching on 1
+Node 16 depth 9 unsatisfied 20 sum 9.15093 obj 55.5 guess 56.1986 branching on 89
+Node 17 depth 10 unsatisfied 25 sum 1.11433e+12 obj 56 guess 56.5894 branching on 12
+Node 19 depth 11 unsatisfied 24 sum 1.16074e+12 obj 56 guess 56.6644 branching on 21
+Node 20 depth 12 unsatisfied 22 sum 5.16105 obj 56 guess 56.5841 branching on 159
+Node 21 depth 13 unsatisfied 20 sum 3.21229 obj 56.5 guess 57.0587 branching on 157
+Node 27 depth 9 unsatisfied 17 sum 27.3667 obj 55.5 guess 56.2297 branching on 50
+Node 28 depth 10 unsatisfied 17 sum 20.4089 obj 55.5 guess 56.0056 branching on 159
+Node 29 depth 11 unsatisfied 18 sum 7.80647e+11 obj 56 guess 56.52 branching on 25
+Node 32 depth 12 unsatisfied 19 sum 4.51624 obj 56.6667 guess 57.0564 branching on 64
+Node 33 depth 12 unsatisfied 18 sum 11.1888 obj 56 guess 56.3958 branching on 64
+Node 34 depth 13 unsatisfied 18 sum 11.1468 obj 56 guess 56.3958 branching on 97
+Node 35 depth 14 unsatisfied 16 sum 10.993 obj 56 guess 56.3958 branching on 45
+Node 36 depth 15 unsatisfied 16 sum 10.9763 obj 56 guess 56.4144 branching on 20
+Node 37 depth 16 unsatisfied 23 sum 6.84016 obj 56.4615 guess 56.8916 branching on 88
+Node 38 depth 16 unsatisfied 21 sum 2.55229e+12 obj 56.9643 guess 57.2613 branching on 1
+Node 39 depth 15 unsatisfied 19 sum 4.55129 obj 56.6667 guess 57.2667 branching on 157
+Node 40 depth 14 unsatisfied 19 sum 4.51959 obj 56.6667 guess 57.2715 branching on 157
+Node 41 depth 13 unsatisfied 24 sum 3.87852 obj 56.9 guess 57.2167 branching on 98
+Node 46 depth 13 unsatisfied 19 sum 5.58116 obj 56.6667 guess 57.348 branching on 1
+Cbc0010I After 50 nodes, 9 on tree, 1e+50 best solution, best possible 52.373913 (94.02 seconds)
+Node 52 depth 17 unsatisfied 15 sum 6.78115 obj 56.5 guess 56.961 branching on 158
+Node 55 depth 17 unsatisfied 19 sum 4.43576 obj 56.8125 guess 57.1061 branching on 115
+Node 58 depth 14 unsatisfied 22 sum 4.0682 obj 56.9 guess 57.3281 branching on 21
+Node 62 depth 9 unsatisfied 40 sum 3.66274e+12 obj 55.4167 guess 56.2907 branching on 20
+Node 63 depth 10 unsatisfied 40 sum 48.2672 obj 55.4286 guess 56.2424 branching on 157
+Node 65 depth 11 unsatisfied 37 sum 28.4083 obj 55.9524 guess 56.832 branching on 159
+Node 66 depth 12 unsatisfied 17 sum 6.45941 obj 56.5 guess 56.9553 branching on 96
+Node 68 depth 13 unsatisfied 23 sum 9.82523e+11 obj 56.5 guess 57.1287 branching on 12
+Node 69 depth 14 unsatisfied 23 sum 5.64395 obj 56.5 guess 57.1206 branching on 156
+Node 75 depth 8 unsatisfied 39 sum 107.246 obj 54.2857 guess 55.359 branching on 157
+Node 76 depth 9 unsatisfied 41 sum 1.48425e+12 obj 54.8571 guess 55.8962 branching on 21
+Node 78 depth 10 unsatisfied 38 sum 2.48608e+12 obj 54.9833 guess 56.0695 branching on 159
+Node 79 depth 11 unsatisfied 32 sum 38.7502 obj 55.6667 guess 56.7625 branching on 64
+Node 80 depth 12 unsatisfied 32 sum 34.4398 obj 55.6667 guess 56.7812 branching on 50
+Node 81 depth 13 unsatisfied 32 sum 30.444 obj 55.6667 guess 56.7812 branching on 158
+Node 82 depth 14 unsatisfied 33 sum 12.6964 obj 56.3333 guess 57.4873 branching on 55
+Node 84 depth 13 unsatisfied 35 sum 1.16792e+12 obj 56.9524 guess 58.0486 branching on 45
+Node 85 depth 12 unsatisfied 33 sum 1.42069e+12 obj 56.4328 guess 57.1761 branching on 1
+Node 86 depth 15 unsatisfied 32 sum 12.2687 obj 56.3333 guess 57.4712 branching on 45
+Node 87 depth 16 unsatisfied 32 sum 14.2758 obj 56.3333 guess 57.4712 branching on 1
+Node 88 depth 17 unsatisfied 33 sum 9.15604 obj 56.4 guess 57.5136 branching on 20
+Node 89 depth 17 unsatisfied 30 sum 1.59963e+12 obj 56.6667 guess 57.7838 branching on 20
+Node 90 depth 18 unsatisfied 33 sum 1.50167e+12 obj 56.7273 guess 57.6138 branching on 27
+Node 92 depth 16 unsatisfied 31 sum 9.49062 obj 56.4 guess 57.5091 branching on 54
+Node 93 depth 17 unsatisfied 33 sum 8.29795 obj 56.5 guess 57.5659 branching on 59
+Node 94 depth 17 unsatisfied 26 sum 4.46813 obj 56.9231 guess 57.6646 branching on 59
+Node 97 depth 19 unsatisfied 31 sum 7.11548 obj 56.7273 guess 57.5616 branching on 75
+Node 98 depth 20 unsatisfied 31 sum 6.48041 obj 56.7273 guess 57.5568 branching on 130
+Node 99 depth 21 unsatisfied 32 sum 6.41346 obj 56.7273 guess 57.5598 branching on 155
+Cbc0010I After 100 nodes, 15 on tree, 1e+50 best solution, best possible 52.373913 (99.68 seconds)
+Node 105 depth 18 unsatisfied 31 sum 11.2516 obj 56.4444 guess 57.4898 branching on 156
+Node 106 depth 19 unsatisfied 29 sum 3.92665 obj 56.8889 guess 57.8763 branching on 25
+Node 108 depth 20 unsatisfied 28 sum 3.46179 obj 56.9474 guess 57.7814 branching on 72
+Node 112 depth 18 unsatisfied 30 sum 7.54173e+11 obj 56.875 guess 57.675 branching on 27
+Node 113 depth 19 unsatisfied 26 sum 5.81862 obj 56.875 guess 57.6919 branching on 20
+Node 117 depth 18 unsatisfied 32 sum 5.3962 obj 56.913 guess 57.8548 branching on 130
+Node 118 depth 19 unsatisfied 31 sum 4.92879 obj 56.913 guess 57.8548 branching on 156
+Node 122 depth 18 unsatisfied 31 sum 8.81895 obj 56.75 guess 57.7173 branching on 156
+Node 126 depth 13 unsatisfied 32 sum 20.4118 obj 56.5 guess 57.2334 branching on 55
+Node 127 depth 14 unsatisfied 32 sum 19.3288 obj 56.5185 guess 57.3092 branching on 89
+Node 131 depth 13 unsatisfied 26 sum 8.55671 obj 56.7692 guess 57.5562 branching on 88
+Node 132 depth 14 unsatisfied 25 sum 7.9467 obj 56.7692 guess 57.5585 branching on 85
+Node 133 depth 15 unsatisfied 25 sum 8.88817 obj 56.7692 guess 57.6082 branching on 155
+Node 138 depth 14 unsatisfied 34 sum 7.16459 obj 59 guess 60.0481 branching on 89
+Node 140 depth 11 unsatisfied 32 sum 67.2003 obj 55.4 guess 56.2754 branching on 155
+Node 141 depth 12 unsatisfied 29 sum 43.7532 obj 55.8 guess 56.6358 branching on 50
+Node 142 depth 13 unsatisfied 29 sum 44.4162 obj 55.8 guess 56.6255 branching on 1
+Node 143 depth 14 unsatisfied 28 sum 39.1419 obj 55.8 guess 56.6224 branching on 27
+Node 144 depth 15 unsatisfied 28 sum 34.7776 obj 55.8 guess 56.6224 branching on 89
+Node 146 depth 16 unsatisfied 0 sum 0 obj 56 guess 56 branching on -1
+Cbc0004I Integer solution of 56 found after 18965 iterations and 146 nodes (104.45 seconds)
+Node 147 depth 8 unsatisfied 26 sum 11.6656 obj 54.68 guess 55.445 branching on 155
+Cbc0010I After 150 nodes, 4 on tree, 56 best solution, best possible 52.373913 (105.08 seconds)
+Node 151 depth 4 unsatisfied 29 sum 3.82642e+10 obj 53.6667 guess 54.6771 branching on 89
+Node 152 depth 5 unsatisfied 32 sum 15.6945 obj 54.6429 guess 55.9806 branching on 155
+Cbc0050I Exiting on maximum number of iterations
+Cbc0005I Partial search - best objective 56 (best possible 52.373913), took 21805 iterations and 153 nodes (106.60 seconds)
+Cbc0032I Strong branching done 258 times (2241 iterations), fathomed 1 nodes and fixed 2 variables
+Cbc0035I Maximum depth 21, 580 variables fixed on reduced cost
+Cbc0029I Ending sub-tree for CbcHeuristicLocalAfterFPump
+Cbc0038I Mini branch and bound did not improve solution (107.20 seconds)
 Cbc0038I Round again with cutoff of 54.2676
 Cbc0038I Reduced cost fixing fixed 5 variables on major pass 2
-Cbc0038I Pass   5: (107.26 seconds) suminf.   13.59615 (65) obj. 50.4038 iterations 0
-Cbc0038I Pass   6: (108.95 seconds) suminf.    8.63448 (39) obj. 51.7655 iterations 347
-Cbc0038I Pass   7: (109.82 seconds) suminf.    6.88060 (51) obj. 52.597 iterations 183
-Cbc0038I Pass   8: (110.47 seconds) suminf.    6.23243 (18) obj. 54.2676 iterations 165
-Cbc0038I Pass   9: (111.51 seconds) suminf.    5.55406 (28) obj. 54.2676 iterations 272
-Cbc0038I Pass  10: (112.05 seconds) suminf.    5.50045 (64) obj. 54.2676 iterations 112
-Cbc0038I Pass  11: (113.59 seconds) suminf.    9.73243 (26) obj. 54.2676 iterations 326
-Cbc0038I Pass  12: (114.84 seconds) suminf.    6.33333 (19) obj. 53 iterations 261
-Cbc0038I Pass  13: (115.61 seconds) suminf.    6.03125 (49) obj. 53.125 iterations 139
-Cbc0038I Pass  14: (116.95 seconds) suminf.    5.85521 (15) obj. 54.2676 iterations 259
-Cbc0038I Pass  15: (117.87 seconds) suminf.    5.85521 (15) obj. 54.2676 iterations 160
-Cbc0038I Pass  16: (119.86 seconds) suminf.    5.39130 (52) obj. 52.6667 iterations 379
-Cbc0038I Pass  17: (120.34 seconds) suminf.    5.11111 (52) obj. 52.8148 iterations 82
-Cbc0038I Pass  18: (121.58 seconds) suminf.    8.22787 (33) obj. 54.2676 iterations 306
-Cbc0038I Pass  19: (122.40 seconds) suminf.    5.65400 (35) obj. 54.2676 iterations 193
-Cbc0038I Pass  20: (122.94 seconds) suminf.    4.90050 (46) obj. 54.2676 iterations 77
-Cbc0038I Pass  21: (123.77 seconds) suminf.    4.73243 (25) obj. 54.2676 iterations 163
-Cbc0038I Pass  22: (124.82 seconds) suminf.    8.36622 (26) obj. 54.2676 iterations 200
-Cbc0038I Pass  23: (125.49 seconds) suminf.    6.20000 (25) obj. 53.2 iterations 138
-Cbc0038I Pass  24: (126.27 seconds) suminf.    5.25676 (33) obj. 54.0405 iterations 179
-Cbc0038I Pass  25: (127.53 seconds) suminf.    4.62236 (15) obj. 54.2676 iterations 288
-Cbc0038I Pass  26: (128.29 seconds) suminf.    4.58036 (17) obj. 54.2676 iterations 120
-Cbc0038I Pass  27: (130.47 seconds) suminf.    5.54900 (68) obj. 54.2676 iterations 410
-Cbc0038I Pass  28: (130.92 seconds) suminf.    5.48614 (65) obj. 54.2676 iterations 47
-Cbc0038I Pass  29: (131.61 seconds) suminf.    7.38842 (20) obj. 54.2676 iterations 158
-Cbc0038I Pass  30: (132.18 seconds) suminf.    6.13153 (19) obj. 54.2676 iterations 126
-Cbc0038I Pass  31: (132.62 seconds) suminf.    6.12965 (20) obj. 54.2676 iterations 75
-Cbc0038I Pass  32: (135.64 seconds) suminf.    7.00000 (14) obj. 54 iterations 200
-Cbc0038I Pass  33: (136.03 seconds) suminf.    5.50000 (19) obj. 53.1667 iterations 51
-Cbc0038I Pass  34: (139.27 seconds) suminf.    4.80000 (14) obj. 54 iterations 185
+Cbc0038I Pass   5: (107.75 seconds) suminf.   13.59615 (65) obj. 50.4038 iterations 0
+Cbc0038I Pass   6: (109.42 seconds) suminf.    8.63448 (39) obj. 51.7655 iterations 347
+Cbc0038I Pass   7: (110.28 seconds) suminf.    6.88060 (51) obj. 52.597 iterations 183
+Cbc0038I Pass   8: (110.93 seconds) suminf.    6.23243 (18) obj. 54.2676 iterations 165
+Cbc0038I Pass   9: (111.96 seconds) suminf.    5.55406 (28) obj. 54.2676 iterations 272
+Cbc0038I Pass  10: (112.49 seconds) suminf.    5.50045 (64) obj. 54.2676 iterations 112
+Cbc0038I Pass  11: (114.03 seconds) suminf.    9.73243 (26) obj. 54.2676 iterations 326
+Cbc0038I Pass  12: (115.25 seconds) suminf.    6.33333 (19) obj. 53 iterations 261
+Cbc0038I Pass  13: (116.00 seconds) suminf.    6.03125 (49) obj. 53.125 iterations 139
+Cbc0038I Pass  14: (117.33 seconds) suminf.    5.85521 (15) obj. 54.2676 iterations 259
+Cbc0038I Pass  15: (118.23 seconds) suminf.    5.85521 (15) obj. 54.2676 iterations 160
+Cbc0038I Pass  16: (120.19 seconds) suminf.    5.39130 (52) obj. 52.6667 iterations 379
+Cbc0038I Pass  17: (120.66 seconds) suminf.    5.11111 (52) obj. 52.8148 iterations 82
+Cbc0038I Pass  18: (121.90 seconds) suminf.    8.22787 (33) obj. 54.2676 iterations 306
+Cbc0038I Pass  19: (122.73 seconds) suminf.    5.65400 (35) obj. 54.2676 iterations 193
+Cbc0038I Pass  20: (123.25 seconds) suminf.    4.90050 (46) obj. 54.2676 iterations 77
+Cbc0038I Pass  21: (124.06 seconds) suminf.    4.73243 (25) obj. 54.2676 iterations 163
+Cbc0038I Pass  22: (125.11 seconds) suminf.    8.36622 (26) obj. 54.2676 iterations 200
+Cbc0038I Pass  23: (125.77 seconds) suminf.    6.20000 (25) obj. 53.2 iterations 138
+Cbc0038I Pass  24: (126.56 seconds) suminf.    5.25676 (33) obj. 54.0405 iterations 179
+Cbc0038I Pass  25: (127.82 seconds) suminf.    4.62236 (15) obj. 54.2676 iterations 288
+Cbc0038I Pass  26: (128.54 seconds) suminf.    4.58036 (17) obj. 54.2676 iterations 120
+Cbc0038I Pass  27: (130.74 seconds) suminf.    5.54900 (68) obj. 54.2676 iterations 410
+Cbc0038I Pass  28: (131.17 seconds) suminf.    5.48614 (65) obj. 54.2676 iterations 47
+Cbc0038I Pass  29: (131.85 seconds) suminf.    7.38842 (20) obj. 54.2676 iterations 158
+Cbc0038I Pass  30: (132.40 seconds) suminf.    6.13153 (19) obj. 54.2676 iterations 126
+Cbc0038I Pass  31: (132.82 seconds) suminf.    6.12965 (20) obj. 54.2676 iterations 75
+Cbc0038I Pass  32: (135.80 seconds) suminf.    7.00000 (14) obj. 54 iterations 200
+Cbc0038I Pass  33: (136.21 seconds) suminf.    5.50000 (19) obj. 53.1667 iterations 51
+Cbc0038I Pass  34: (139.42 seconds) suminf.    4.80000 (14) obj. 54 iterations 185
 Cbc0038I No solution found this major pass
 Cbc0038I Before mini branch and bound, 200 integers at bound fixed and 0 continuous
 Cbc0038I Full problem 27933 rows 404 columns, reduced to 17658 rows 204 columns - 16 fixed gives 5599, 188 - ok now
+Cgl0009I 87 elements changed
+Cgl0004I processed model has 5598 rows, 188 columns (188 integer (188 of which binary)) and 135394 elements
 Cbc0038I Full problem 27933 rows 404 columns, reduced to 5598 rows 188 columns
-Cbc0038I Mini branch and bound did not improve solution (160.77 seconds)
-Cbc0038I After 160.77 seconds - Feasibility pump exiting with objective of 56 - took 96.97 seconds
-Cbc0012I Integer solution of 56 found by feasibility pump after 0 iterations and 0 nodes (160.85 seconds)
+Cbc0028I Starting sub-tree for CbcHeuristicLocalAfterFPump - maximum nodes 200
+Cbc0045I Heuristic feasibility pump took 1e-06 seconds (no good)
+Cbc0045I Heuristic rounding took 1e-06 seconds (no good)
+Cbc0046I Root node pass 1, 5598 rows, 0 total tight cuts  -  objective 53.818182
+Cbc0013I At root node, 0 cuts changed objective from 53.818182 to 53.818182 in 1 passes
+Cbc0014I Cut generator 0 (Probing) - 0 row cuts average 0.0 elements, 11 column cuts (11 active)
+Node 0 depth 0 unsatisfied 61 sum 4.51545e+14 obj 53.8182 guess 66 branching on 169
+Cbc0010I After 0 nodes, 1 on tree, 1e+50 best solution, best possible 53.818182 (155.23 seconds)
+Node 1 depth 1 unsatisfied 53 sum 2.40257e+13 obj 53.8438 guess 54.3771 branching on 114
+Node 2 depth 2 unsatisfied 65 sum 2.68157e+13 obj 53.8697 guess 54.4828 branching on 125
+Node 3 depth 3 unsatisfied 50 sum 1.73157e+13 obj 53.8718 guess 54.358 branching on 137
+Node 4 depth 4 unsatisfied 50 sum 1.18847e+13 obj 53.8723 guess 54.4315 branching on 166
+Node 5 depth 5 unsatisfied 47 sum 8.32664e+12 obj 54.3846 guess 54.6843 branching on 87
+Node 6 depth 6 unsatisfied 38 sum 4.94495e+12 obj 54.3846 guess 54.7094 branching on 36
+Node 7 depth 7 unsatisfied 48 sum 8.10306e+11 obj 54.403 guess 54.7908 branching on 162
+Node 10 depth 8 unsatisfied 40 sum 6.96991e+11 obj 54.8857 guess 55.242 branching on 117
+Node 11 depth 9 unsatisfied 38 sum 2.15966e+12 obj 54.9333 guess 55.2922 branching on 159
+Node 12 depth 10 unsatisfied 37 sum 7.55637e+11 obj 55.0172 guess 55.3431 branching on 19
+Node 13 depth 11 unsatisfied 20 sum 5.89742e+11 obj 55.6667 guess 55.8046 branching on 165
+Node 14 depth 12 unsatisfied 15 sum 1.38259e+12 obj 56.3333 guess 56.4652 branching on 90
+Node 17 depth 12 unsatisfied 0 sum 0 obj 56 guess 56 branching on -1
+Cbc0004I Integer solution of 56 found after 2186 iterations and 17 nodes (157.12 seconds)
+Node 21 depth 5 unsatisfied 43 sum 2.04681e+10 obj 54.6 guess 55.6296 branching on 165
+Node 25 depth 3 unsatisfied 48 sum 5.45163e+10 obj 54.7647 guess 55.9319 branching on 165
+Node 28 depth 2 unsatisfied 43 sum 1.23726 obj 54.8654 guess 55.93 branching on 166
+Node 31 depth 1 unsatisfied 62 sum 1.17833e+10 obj 54.66 guess 55.7278 branching on 166
+Cbc0001I Search completed - best objective 56, took 7447 iterations and 33 nodes (160.34 seconds)
+Cbc0032I Strong branching done 192 times (1624 iterations), fathomed 0 nodes and fixed 0 variables
+Cbc0035I Maximum depth 12, 231 variables fixed on reduced cost
+Cbc0029I Ending sub-tree for CbcHeuristicLocalAfterFPump
+Cbc0038I Mini branch and bound did not improve solution (160.94 seconds)
+Cbc0038I After 160.94 seconds - Feasibility pump exiting with objective of 56 - took 96.72 seconds
+Cbc0045I Heuristic feasibility pump took 96.7217 seconds (good)
+Cbc0012I Integer solution of 56 found by feasibility pump after 0 iterations and 0 nodes (161.02 seconds)
+Cbc0045I Heuristic rounding took 0 seconds (no good)
+Cbc0045I Heuristic greedy cover took 0 seconds (no good)
+Cbc0045I Heuristic greedy equality took 1e-06 seconds (no good)
+Cbc0045I Heuristic DiveCoefficient took 18.3368 seconds (no good)
 Cbc0038I Full problem 27933 rows 404 columns, reduced to 17158 rows 183 columns - 53 fixed gives 0, 0 - ok now
+Cgl0002I 114 variables fixed
+Cgl0000I Cut generators found to be infeasible! (or unbounded)
+Pre-processing says infeasible
+Cbc0045I Heuristic RINS took 13.4816 seconds (no good)
+Cbc0046I Root node pass 1, 27933 rows, 0 total tight cuts  -  objective 47.674765
+Cbc0046I Root node pass 2, 27939 rows, 6 total tight cuts  -  objective 48.540374
+Cbc0046I Root node pass 3, 27949 rows, 16 total tight cuts  -  objective 48.819572
+Cbc0046I Root node pass 4, 27947 rows, 14 total tight cuts  -  objective 48.909822
+Cbc0046I Root node pass 5, 27947 rows, 14 total tight cuts  -  objective 49.005413
+Cbc0046I Root node pass 6, 27948 rows, 15 total tight cuts  -  objective 49.042253
+Cbc0046I Root node pass 7, 27954 rows, 21 total tight cuts  -  objective 49.054609
+Cbc0046I Root node pass 8, 27954 rows, 21 total tight cuts  -  objective 49.055392
+Cbc0046I Root node pass 9, 27955 rows, 22 total tight cuts  -  objective 49.055459
+Cbc0046I Root node pass 10, 27956 rows, 23 total tight cuts  -  objective 49.055681
+Cbc0046I Root node pass 11, 27959 rows, 26 total tight cuts  -  objective 49.055681
 Cbc0031I 26 added rows had average density of 130.15385
 Cbc0013I At root node, 26 cuts changed objective from 47.674765 to 49.055681 in 11 passes
-Cbc0014I Cut generator 0 (Probing) - 221 row cuts average 6.6 elements, 27 column cuts (36 active)  in 2.127 seconds - new frequency is 1
-Cbc0014I Cut generator 1 (Gomory) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 3.421 seconds - new frequency is -100
+Cbc0014I Cut generator 0 (Probing) - 221 row cuts average 6.6 elements, 27 column cuts (36 active)  in 2.132 seconds - new frequency is 1
+Cbc0014I Cut generator 1 (Gomory) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 3.437 seconds - new frequency is -100
 Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.130 seconds - new frequency is -100
 Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.044 seconds - new frequency is -100
-Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 17.302 seconds - new frequency is -100
+Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 17.089 seconds - new frequency is -100
 Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.223 seconds - new frequency is -100
-Cbc0014I Cut generator 6 (TwoMirCuts) - 815 row cuts average 233.7 elements, 0 column cuts (0 active)  in 5.083 seconds - new frequency is 1
+Cbc0014I Cut generator 6 (TwoMirCuts) - 815 row cuts average 233.7 elements, 0 column cuts (0 active)  in 5.116 seconds - new frequency is 1
+Node 0 depth 0 unsatisfied 148 sum 1.7503e+14 obj 49.0557 guess 72.8567 branching on 248
+Cbc0010I After 0 nodes, 1 on tree, 56 best solution, best possible 49.055681 (324.30 seconds)
+Clp0014I Perturbing problem by 0.001 % of 112.16852 - largest nonzero change 9.6919895e-05 (% 0.00025921683) - largest zero change 9.2246363e-05
+Clp0006I 0  Obj 49.055681 Primal inf 0.48401047 (1)
+Clp0006I 429  Obj 49.078169 Primal inf 151928.92 (7490)
