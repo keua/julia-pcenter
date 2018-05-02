@@ -20,10 +20,11 @@ Elloumi: `./run-easy.sh /home/ec2-user/julia/bin Instances/easy elloumi`
 
 Individual
 
-```$JULIA_HOME/julia pcenter_solver.jl -f="Instances/hard/instance1.dat" -m="elloumi" -l=1 | tee daskin-10_1_1.log```
+```$JULIA_HOME/julia pcenter_solver.jl -f="Instances/hard/instance1.dat" -m="elloumi" -l=1 | tee daskin-hard1.log```
 
 Bulk
 
-> run-hard.sh [JULIA_HOME] [INSTANCES_HOME] [METHOD(daskin|elloumi)] [LIMIT(1-10)] 
+> run-hard.sh [JULIA_HOME] [INSTANCES_HOME] [METHOD(daskin|elloumi)] [START(1-10)] [END(1-10)] 
 
-Example: `./run-hard.sh /usr/local/julia/bin Instances/hard daskin 1`
+Daskin: `./run-hard.sh /home/ec2-user/julia/bin Instances/hard daskin 1 5`
+Elloumi: `./run-hard.sh /home/ec2-user/julia/bin Instances/hard elloumi 1 5`
