@@ -30,7 +30,7 @@ Then you can use the following options to run it:
 $julia pcentersolver.jl -f="Instances/xxxxx.dat" 
                         -m=daskin|elloumi 
                         -l=0|1|2|3
-                        -r=bi|fi|vnd 
+                        -r=0.5
                         -t=3600
                         -th=2
  ```
